@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Ecoregions Globe</title>
+
+  <!-- Mapbox -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.0/mapbox-gl.css" rel="stylesheet"/>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+
+  <style>
+    * {
+      font-family: "Inter", sans-serif;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      /* background gradient */
+      background: linear-gradient(180deg, #dce6ef, #ffffff 65%);
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      /* circular fade mask — shifted up so globe is more centered visually */
+      mask-image: radial-gradient(circle at center, black 65%, transparent 86%);
+      -webkit-mask-image: radial-gradient(circle at center, black 65%, transparent 86%);
+    }
+
+    /* Hover info */
+    #info {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 20;
+      background: rgba(255,255,255,0.8);
+      padding: 10px 14px;
+      border-radius: 8px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      font-size: 14px;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+
+    /* Legend box */
+    #legend {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      z-index: 20;
+      background: rgba(255,255,255,0.8);
+      backdrop-filter: blur(6px);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 12px;
+      max-width: 260px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      line-height: 1.2;
+    }
+
+    .legend-entry {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .legend-color {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0,0.2);
+    }
+
+    #titleBox {
+      position: absolute;
+      z-index: 25;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.8);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      font-size: 18px;
+      font-weight: 600;
+      color: #222;
+      pointer-events: none;
+    }
+
+    #titleBox {
+      top: 20px;
+      right: 20px;
+      text-align: right;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div id="info">hover a region…</div>
+<div id="legend"></div>
+<div id="titleBox">
+  ECOSPHERE -  Biomes and Ecoregions  
+  <div style="font-weight:400; font-size:12px; opacity:0.7;">
+    WWF Ecoregions • 2024
+    <br />
+    Data source:
+    <a href="https://academic.oup.com/bioscience/article/67/6/534/3102935?login=false">https://academic.oup.com/bioscience/article/67/6/534/3102935?login=false</a>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<script>
+/* ==================================
+   🔑 CONFIG
+   ================================== */
+mapboxgl.accessToken = "MAPBOX_API_TOKEN";   // <--- UPDATE THIS
+
+const TILESET = "TILESET_ID";
+const SOURCE_LAYER = "sSOURCE_LAYER_NAME";
+
+/* BIOME NUM → COLOR */
+const biomeHex = {
+  1:"#449F65",  2:"#D8AF4A",  3:"#155039",
+  4:"#51876D",  5:"#236746",  6:"#6287AD",
+  7:"#C0E9DD",  8:"#D15E4B",  9:"#D6C05E",
+  10:"#97D8D2", 11:"#C9E591", 12:"#7FD482",
+  13:"#CDBD9F", 14:"#FF00FF"
+};
+
+/* BIOME LABELS (nice + short) */
+const biomeLabels = {
+  1:"Tropical Moist Broadleaf",
+  2:"Tropical Dry Broadleaf",
+  3:"Tropical Conifer",
+  4:"Temperate Mixed",
+  5:"Temperate Conifer",
+  6:"Boreal / Taiga",
+  7:"Tundra",
+  8:"Mediterranean",
+  9:"Deserts / Xeric",
+  10:"Flooded Grasslands",
+  11:"Temperate Grasslands",
+  12:"Tropical Grasslands",
+  13:"Montane Grasslands",
+  14:"Mangroves"
+};
+
+/* Mapbox match expression */
+const biomeColors = [
+  "match",
+  ["get","BIOME_NUM"],
+  1, biomeHex[1],
+  2, biomeHex[2],
+  3, biomeHex[3],
+  4, biomeHex[4],
+  5, biomeHex[5],
+  6, biomeHex[6],
+  7, biomeHex[7],
+  8, biomeHex[8],
+  9, biomeHex[9],
+  10, biomeHex[10],
+  11, biomeHex[11],
+  12, biomeHex[12],
+  13, biomeHex[13],
+  14, biomeHex[14],
+  "#ccc"
+];
+
+/* ==================================
+   🌍 MAP
+   ================================== */
+const map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/outdoors-v11",
+  center: [0, 15],
+  zoom: 1.2,
+  pitch: 15,
+  bearing: 0
+});
+
+/* → ENABLE GLOBE MODE */
+map.on("style.load", () => {
+  map.setProjection("globe");
+
+  map.setFog({
+    color: "rgba(220,230,245,1)",
+    horizonBlend: 0.3,
+    range: [0.5, 10],
+    starIntensity: 0.0
+  });
+
+  /* remove labels for super clean look */
+  map.getStyle().layers.forEach(l=>{
+    if(l.type === "symbol"){
+      map.setLayoutProperty(l.id,"visibility","none");
+    }
+  });
+});
+
+/* ==================================
+   LAYERS
+   ================================== */
+map.on("load", () => {
+  map.addSource("ecoregions", {
+    type:"vector",
+    url:"mapbox://" + TILESET
+  });
+
+  // fill
+  map.addLayer({
+    id:"e-fill",
+    type:"fill",
+    source:"ecoregions",
+    "source-layer":SOURCE_LAYER,
+    paint:{
+      "fill-color": biomeColors,
+      "fill-opacity":[
+        "case",
+        ["boolean",["feature-state","hover"],false],
+        1.0,
+        0.82
+      ]
+    }
+  });
+
+  // outline
+  map.addLayer({
+    id:"e-outline",
+    type:"line",
+    source:"ecoregions",
+    "source-layer":SOURCE_LAYER,
+    paint:{
+      "line-color":"rgba(0,0,0,0.45)",
+      "line-width":0.3
+    }
+  });
+
+  // hover outline
+  map.addLayer({
+    id:"e-hover",
+    type:"line",
+    source:"ecoregions",
+    "source-layer":SOURCE_LAYER,
+    paint:{
+      "line-color":"#000",
+      "line-width":1.8
+    },
+    filter:["==","OBJECTID",-1]
+  });
+
+  /* HOVER INTERACTION */
+  const info = document.getElementById("info");
+
+  map.on("mousemove","e-fill",e=>{
+    map.getCanvas().style.cursor = "pointer";
+    const p = e.features[0].properties;
+    map.setFilter("e-hover",["==","OBJECTID",p.OBJECTID]);
+
+    info.style.opacity = 1;
+    info.innerHTML = `
+      <div style="font-weight:600; font-size:15px;">${p.ECO_NAME || ""}</div>
+      <div style="opacity:0.8;">${p.BIOME_NAME || ""}</div>
+      <div style="opacity:0.6; font-size:12px;">${p.REALM || ""}</div>
+    `;
+  });
+
+  map.on("mouseleave","e-fill",()=>{
+    map.getCanvas().style.cursor = "";
+    map.setFilter("e-hover",["==","OBJECTID",-1]);
+    info.innerHTML = "hover a region…";
+  });
+
+  /* LEGEND */
+  const legendDiv = document.getElementById("legend");
+  legendDiv.innerHTML = Object.entries(biomeHex)
+    .map(([id,c]) => `
+      <div class="legend-entry">
+        <div class="legend-color" style="background:${c};"></div>
+        <span>${biomeLabels[id]}</span>
+      </div>
+    `).join("");
+});
+</script>
+
+</body>
+</html>
