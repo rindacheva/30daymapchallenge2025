@@ -21,6 +21,16 @@ This repo holds my daily solutions to each of the challenges :)
 
 ## Day 04 — My Data 🏃‍♀️
 
+I used my Strava data from a multiday hike I did in New Zealand - the Kepler Track. I used QGIS to
+- combine the different days GPX
+- to create the elevation map using 8m DEM data from LINZ
+- used the QuickOSM plugin for the water bodies (the lakes)
+
+I touched it up on Photoshop and added icons and labels
+
+![Day 5 Map](maps/day4/day4_final.png)
+
+
 ---
 
 ## Day 05 — Earth 🌍
@@ -45,3 +55,4 @@ I converted the source shapefiles into vector tiles (Mapbox Tilesets) and render
 ## Data
 
 - [RESOLVE Ecoregions Dataset (2017) dataset](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017)
+- [LINZ 8m DEM data (2012)](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
