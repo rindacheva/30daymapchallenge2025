@@ -42,6 +42,16 @@ I converted the source shapefiles into vector tiles (Mapbox Tilesets) and render
 
 ---
 
+## Day 06 — Dimensions 🧊
+
+A map of ocean depth using data from [GEBCO](https://www.gebco.net/data-products/gridded-bathymetry-data) overlayed with migration patterns of 20 humpback whales from [OBIS](https://obis.org/data/access/).
+
+I picked a sample of male and female whales with most sightings and plotted their weekly moves in the last 20 years.
+
+![Day 6 Map](maps/day6/day6.png)
+
+---
+
 ## Stack
 
 - Mapbox GL JS
@@ -49,6 +59,7 @@ I converted the source shapefiles into vector tiles (Mapbox Tilesets) and render
 - RESOLVE Ecoregions (2017)  
 - Python / GeoPandas  
 - HTML + CSS  
+- Kepler.gl
 
 ---
 
@@ -56,3 +67,5 @@ I converted the source shapefiles into vector tiles (Mapbox Tilesets) and render
 
 - [RESOLVE Ecoregions Dataset (2017) dataset](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017)
 - [LINZ 8m DEM data (2012)](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
+- [GEBCO Ocean Bathymetry Data](https://www.gebco.net/data-products/gridded-bathymetry-data)
+- [OBIS Whale Sighting Data](https://obis.org/data/access/)
