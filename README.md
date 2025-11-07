@@ -52,19 +52,33 @@ I picked a sample of male and female whales with most sightings and plotted thei
 
 ---
 
+## Day 07 — Acessibility 🏙️
+
+A map of Sofia sidewalk quality using OSM data.
+
+Sofia sidewalks are notoriously bad, especially in autumn/winter when it is raining and you don't know if you'll step on a tile and your foot will sink into a puddle...
+
+Apparently [this OSM tag](https://wiki.openstreetmap.org/wiki/Key:smoothness) is user recorded so may not be 100% accurate but it is somewhat reflective of reality. 
+
+![Day 7 Map](maps/day7/day7.png)
+
+---
+
 ## Stack
 
+- QGIS
 - Mapbox GL JS
 - Mapbox Tilesets  
-- RESOLVE Ecoregions (2017)  
 - Python / GeoPandas  
 - HTML + CSS  
 - Kepler.gl
+- Photoshop (for touch ups)
 
 ---
 
 ## Data
 
+- OSM
 - [RESOLVE Ecoregions Dataset (2017) dataset](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017)
 - [LINZ 8m DEM data (2012)](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
 - [GEBCO Ocean Bathymetry Data](https://www.gebco.net/data-products/gridded-bathymetry-data)
