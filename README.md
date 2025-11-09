@@ -64,12 +64,33 @@ Apparently [this OSM tag](https://wiki.openstreetmap.org/wiki/Key:smoothness) is
 
 ---
 
+## Day 08 — Urban 🐕
+
+A map of London with a score of how dog friendly each borough is. The scores are based on OSM data on dog parks, vet clinics, pet stores in each borough (locations mapped as points).
+
+![Day 8 Map](maps/day8/day8.png)
+
+### Scoring method
+
+1. Counted vet clinics, pet shops, animal shelters & dog parks for each borough
+2. Calculated area to normalize and allow fair comparison -> converted raw counts above to densities (count / area_km² * 10 → number per 10 km²)
+3. Applied Min-Max nomalization to each category -> get 0-1 scale
+4. Chose weighted scores
+- vets: 40%
+- pet shops: 30%
+- shelters: 20%
+- dog parks: 10%
+5. Final score per borough = weighted sum of all normalized densities
+6. Broke scores into 4 quantile classes (Low, Med, High, Supreme)
+
+---
+
 ## Stack
 
 - QGIS
 - Mapbox GL JS
 - Mapbox Tilesets  
-- Python / GeoPandas  
+- Python (Pandas, GeoPandas, Numpy, Sklearn)
 - HTML + CSS  
 - Kepler.gl
 - Photoshop (for touch ups)
@@ -83,3 +104,5 @@ Apparently [this OSM tag](https://wiki.openstreetmap.org/wiki/Key:smoothness) is
 - [LINZ 8m DEM data (2012)](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
 - [GEBCO Ocean Bathymetry Data](https://www.gebco.net/data-products/gridded-bathymetry-data)
 - [OBIS Whale Sighting Data](https://obis.org/data/access/)
+- [Dog population per postcode district](https://www.data.gov.uk/dataset/)
+- [London Boroughs GPKG](https://data.london.gov.uk/dataset/london-boroughs-e55pw/)

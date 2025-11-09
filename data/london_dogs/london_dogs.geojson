@@ -1,0 +1,4788 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-11-09T14:06:22Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31437643",
+        "addr:street": "Northolt Road",
+        "amenity": "veterinary",
+        "check_date": "2023-10-27",
+        "name": "Medivet Veterinary Clinic",
+        "phone": "+44 20 8422 4757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3582282,
+          51.5608616
+        ]
+      },
+      "id": "node/31437643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/266416973",
+        "addr:city": "London",
+        "addr:postcode": "E14 3UU",
+        "addr:street": "Amsterdam Road",
+        "amenity": "veterinary",
+        "name": "Best Friends Veterinary Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0074739,
+          51.4953704
+        ]
+      },
+      "id": "node/266416973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/269004965",
+        "addr:city": "Sutton",
+        "addr:housenumber": "84",
+        "addr:postcode": "SM2 6LZ",
+        "addr:street": "Mulgrave Road",
+        "amenity": "veterinary",
+        "name": "Wingrave Veterinary Surgery",
+        "opening_hours": "Mo-Fr 08:00-19:00, Sa 09:00-17:00, Su 09:00-12:00",
+        "operator": "Medivets UK",
+        "phone": "+44 20 8642 9100",
+        "website": "http://www.wingravevets.com/surgeries/sutton/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1992946,
+          51.3578909
+        ]
+      },
+      "id": "node/269004965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/313181158",
+        "alt_name": "BSAH",
+        "amenity": "veterinary",
+        "contact:phone": "+44 20 7387 8134",
+        "name": "Beaumont Sainsbury Animal Hospital",
+        "website": "https://www.rvc.ac.uk/beaumont-sainsbury-animal-hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1342965,
+          51.537202
+        ]
+      },
+      "id": "node/313181158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/353912649",
+        "addr:housenumber": "496",
+        "addr:street": "Hornsey Road",
+        "amenity": "veterinary",
+        "name": "Dragon Veterinary Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.122378,
+          51.5677049
+        ]
+      },
+      "id": "node/353912649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/371761804",
+        "addr:housenumber": "1",
+        "addr:postcode": "SM1 1QY",
+        "addr:street": "Stayton Road",
+        "amenity": "veterinary",
+        "name": "The Corner",
+        "phone": "+44 20 8641 6126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.196549,
+          51.371769
+        ]
+      },
+      "id": "node/371761804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/517429222",
+        "addr:city": "London",
+        "addr:housenumber": "60",
+        "addr:street": "Cross Street",
+        "amenity": "veterinary",
+        "name": "Abbey Vet",
+        "phone": "+44 20 7226 8555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1018586,
+          51.5395603
+        ]
+      },
+      "id": "node/517429222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/660899263",
+        "addr:housenumber": "147",
+        "name": "Parker's pet food and aquatics",
+        "shop": "pet",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0740063,
+          51.5610523
+        ]
+      },
+      "id": "node/660899263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/705171422",
+        "name": "Dr. Doolittle's",
+        "opening_hours": "Mo-Sa 10:00-17:00",
+        "shop": "pet",
+        "source": "BrixtonVillageMap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1257805,
+          51.4395206
+        ]
+      },
+      "id": "node/705171422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726904818",
+        "amenity": "veterinary",
+        "check_date:opening_hours": "2022-06-09",
+        "name": "The Sherwood Veterinary Centre",
+        "opening_hours:signed": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3667828,
+          51.4258878
+        ]
+      },
+      "id": "node/726904818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/823477117",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "name": "Medivet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09448,
+          51.5410728
+        ]
+      },
+      "id": "node/823477117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/823477129",
+        "name": "Canonbury Pet Store",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.094537,
+          51.5410436
+        ]
+      },
+      "id": "node/823477129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/831257424",
+        "addr:housenumber": "94",
+        "name": "Animal Crackers",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1618847,
+          51.5536752
+        ]
+      },
+      "id": "node/831257424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/835858976",
+        "name": "Scamps",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2160844,
+          51.3572388
+        ]
+      },
+      "id": "node/835858976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/935555299",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2526543,
+          51.5607789
+        ]
+      },
+      "id": "node/935555299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1253198040",
+        "addr:housenumber": "340",
+        "addr:street": "Hornsey Road",
+        "name": "Atlas Pet Shop",
+        "phone": "+44 7959 8551 379",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1181753,
+          51.5634335
+        ]
+      },
+      "id": "node/1253198040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1280261554",
+        "addr:housenumber": "85",
+        "addr:street": "Earl's Court Road",
+        "amenity": "veterinary",
+        "level": "0",
+        "name": "Abingdon Veterinary Clinic",
+        "phone": "+44 20 7937 8215",
+        "postal_code": "W8 6EF",
+        "url": "http://www.abingdonclinic.co.uk/homepage.html",
+        "website": "http://abingdonclinic.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1966809,
+          51.4962925
+        ]
+      },
+      "id": "node/1280261554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304102423",
+        "amenity": "veterinary",
+        "name": "Animal Medical Centre",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.203845,
+          51.5611352
+        ]
+      },
+      "id": "node/1304102423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1312678787",
+        "name": "Pinner Pet & Garden",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3841772,
+          51.5952925
+        ]
+      },
+      "id": "node/1312678787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1599374255",
+        "name": "Mays Pet Shop",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2037522,
+          51.6458141
+        ]
+      },
+      "id": "node/1599374255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1661112303",
+        "addr:city": "London",
+        "addr:housename": "Tottenham Hale Retail Park",
+        "addr:housenumber": "Unit 2",
+        "addr:postcode": "N15 4QD",
+        "addr:street": "Broad Lane",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://www.petsathome.com/find-us/locations/pet-care-centre/tottenham-hale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0613016,
+          51.5875256
+        ]
+      },
+      "id": "node/1661112303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1673180362",
+        "addr:city": "Richmond",
+        "addr:housenumber": "179",
+        "addr:postcode": "TW10 7NR",
+        "addr:street": "Ashburnham Road",
+        "amenity": "veterinary",
+        "name": "Thames Vet",
+        "phone": "+44 20 8963 3309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3204399,
+          51.4364269
+        ]
+      },
+      "id": "node/1673180362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1912458915",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/croydon/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1179142,
+          51.3676399
+        ]
+      },
+      "id": "node/1912458915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1955840501",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Midhurst Parade",
+        "addr:postcode": "N10 3EJ",
+        "addr:street": "Fortis Green",
+        "addr:unit": "6",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "name": "Medivet",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 11:00-13:00",
+        "phone": "+44 20 8883 3242",
+        "website": "https://www.medivet.co.uk/vet-practices/fortis-green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1523253,
+          51.5908806
+        ]
+      },
+      "id": "node/1955840501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1958644314",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "82",
+        "addr:postcode": "SW11 6QN",
+        "addr:street": "Northcote Road",
+        "name": "Northcote Pet Stores",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1660945,
+          51.4578922
+        ]
+      },
+      "id": "node/1958644314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1985566362",
+        "amenity": "veterinary",
+        "name": "Goddard",
+        "phone": "+44 20 8989 1671",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0220883,
+          51.5925555
+        ]
+      },
+      "id": "node/1985566362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1991668096",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 10:30-16:30",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/wimbledon/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1850595,
+          51.4299564
+        ]
+      },
+      "id": "node/1991668096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2098481636",
+        "addr:city": "London",
+        "addr:housenumber": "115-117",
+        "addr:postcode": "E18 1EJ",
+        "addr:street": "Maybank Road",
+        "name": "Woodford Aquatics",
+        "shop": "pet",
+        "source": "survey",
+        "website": "https://www.woodfordaquatics.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0331603,
+          51.5958623
+        ]
+      },
+      "id": "node/2098481636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2261220863",
+        "addr:city": "Walthamstow",
+        "addr:country": "GB",
+        "addr:housenumber": "134",
+        "addr:street": "Forest Road",
+        "amenity": "veterinary",
+        "name": "Pets Clinic",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0343252,
+          51.5877592
+        ]
+      },
+      "id": "node/2261220863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2264603530",
+        "addr:city": "Biggin Hill",
+        "addr:housenumber": "2",
+        "addr:postcode": "TN16 3LJ",
+        "addr:street": "Haig Road",
+        "amenity": "veterinary",
+        "name": "Darwin Veterinary Centre",
+        "phone": "+44 1959 541 153",
+        "website": "http://www.darwinvets.com/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Please ask for ramp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0372457,
+          51.3098165
+        ]
+      },
+      "id": "node/2264603530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2481448190",
+        "addr:housenumber": "65",
+        "addr:street": "Well Hall Road",
+        "amenity": "veterinary",
+        "name": "Park Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0497632,
+          51.4580671
+        ]
+      },
+      "id": "node/2481448190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2485569962",
+        "addr:housenumber": "24",
+        "addr:street": "Passey Place",
+        "amenity": "veterinary",
+        "name": "Passey Place Veterinary Surgery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0540153,
+          51.4496615
+        ]
+      },
+      "id": "node/2485569962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2485569967",
+        "addr:housenumber": "4",
+        "addr:street": "Chequers Parade",
+        "check_date": "2024-03-19",
+        "contact:facebook": "petspantryeltham",
+        "name": "Pets Pantry",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0534126,
+          51.4502696
+        ]
+      },
+      "id": "node/2485569967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2611591038",
+        "addr:housenumber": "86",
+        "addr:street": "York Street",
+        "amenity": "veterinary",
+        "name": "London Vet Clinic",
+        "website": "https://londonvetclinic.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1627811,
+          51.5199383
+        ]
+      },
+      "id": "node/2611591038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2611591047",
+        "addr:housenumber": "88",
+        "addr:street": "York Street",
+        "amenity": "veterinary",
+        "name": "London Vet Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1628589,
+          51.5199224
+        ]
+      },
+      "id": "node/2611591047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2689680172",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 10:30-16:30",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/greenford/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3414975,
+          51.5421929
+        ]
+      },
+      "id": "node/2689680172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2721248124",
+        "name": "Whites Pet Care Centre",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0492861,
+          51.4256965
+        ]
+      },
+      "id": "node/2721248124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2802443628",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "name": "Medivet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1472273,
+          51.5775482
+        ]
+      },
+      "id": "node/2802443628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3005231378",
+        "amenity": "veterinary",
+        "name": "Goddards",
+        "opening_hours": "Mo,Tu, Th, Fi 09-19. We, Sa 09-12",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2877842,
+          51.4144977
+        ]
+      },
+      "id": "node/3005231378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3069104091",
+        "addr:city": "London",
+        "addr:housenumber": "2",
+        "addr:postcode": "SW11 6SA",
+        "addr:street": "Burland Road",
+        "amenity": "veterinary",
+        "name": "Westside Veterinary Clinic Ltd",
+        "phone": "+44 20 7223 7003",
+        "website": "https://www.westsidevets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1622246,
+          51.4562019
+        ]
+      },
+      "id": "node/3069104091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3291303554",
+        "addr:city": "London",
+        "addr:housenumber": "216",
+        "addr:postcode": "SW11 4ND",
+        "addr:street": "Battersea Park Road",
+        "name": "Barking Betty",
+        "shop": "pet",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1617211,
+          51.4732358
+        ]
+      },
+      "id": "node/3291303554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3340674790",
+        "amenity": "veterinary",
+        "check_date": "2025-07-04",
+        "name": "Voo",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.150054,
+          51.4663916
+        ]
+      },
+      "id": "node/3340674790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3353955806",
+        "automatic_door": "no",
+        "door": "hinged",
+        "name": "Pet Grooming Parlour",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2389303,
+          51.3941597
+        ]
+      },
+      "id": "node/3353955806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3430546059",
+        "addr:city": "London",
+        "addr:housenumber": "50,52",
+        "addr:postcode": "SW18 1DY",
+        "addr:street": "Fairfield Street",
+        "amenity": "veterinary",
+        "name": "Eco Vets",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "phone": "+44 20 3659 8446",
+        "website": "https://www.ecovets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1902828,
+          51.4588345
+        ]
+      },
+      "id": "node/3430546059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448589418",
+        "amenity": "veterinary",
+        "name": "All Creatures Clinic",
+        "website": "https://www.allcreaturesclinic.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1046215,
+          51.356074
+        ]
+      },
+      "id": "node/3448589418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3450884562",
+        "name": "Pets Unleashed",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1904572,
+          51.4684801
+        ]
+      },
+      "id": "node/3450884562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497324072",
+        "amenity": "veterinary",
+        "check_date": "2025-07-21",
+        "name": "Snoots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1033114,
+          51.5356007
+        ]
+      },
+      "id": "node/3497324072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3661150006",
+        "addr:city": "London",
+        "addr:housenumber": "6",
+        "addr:postcode": "W9 1SS",
+        "addr:street": "Clifton Road",
+        "amenity": "veterinary",
+        "check_date": "2024-10-21",
+        "email": "maidavale@villagevet.co.uk",
+        "name": "Village Vet",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:30-14:00",
+        "phone": "+44 20 7289 1000",
+        "website": "https://www.villagevet.co.uk/practice/maida-vale/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1789406,
+          51.5258739
+        ]
+      },
+      "id": "node/3661150006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750658688",
+        "amenity": "veterinary",
+        "name": "David Cuffe & Associates"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1393227,
+          51.4547019
+        ]
+      },
+      "id": "node/3750658688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3770561367",
+        "addr:city": "London",
+        "addr:housenumber": "146",
+        "addr:postcode": "W12 8HH",
+        "addr:street": "Goldhawk Road",
+        "amenity": "veterinary",
+        "name": "Village Vet",
+        "phone": "+44 20 8743 3510",
+        "website": "https://villagevet.co.uk/practice/brackenbury/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2314662,
+          51.5016394
+        ]
+      },
+      "id": "node/3770561367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891083134",
+        "addr:city": "London",
+        "addr:street": "Lewisham High Street",
+        "name": "Supreme Animal Foods",
+        "opening_hours": "Mo-Sa 09:00-17:30; Su 10:00-16:00",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0145524,
+          51.4566954
+        ]
+      },
+      "id": "node/3891083134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3975318048",
+        "leisure": "dog_park",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1009815,
+          51.5382575
+        ]
+      },
+      "id": "node/3975318048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4161767308",
+        "check_date": "2025-03-10",
+        "name": "Tail End",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3676044,
+          51.4153391
+        ]
+      },
+      "id": "node/4161767308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4221837280",
+        "addr:city": "Penge",
+        "addr:street": "High Street",
+        "amenity": "veterinary",
+        "name": "The Neighbourhood Vet",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0504846,
+          51.4127982
+        ]
+      },
+      "id": "node/4221837280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4237856432",
+        "addr:housenumber": "351",
+        "addr:street": "Kennington Road",
+        "amenity": "veterinary",
+        "name": "Goddard",
+        "website": "https://www.goddardvetgroup.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1111524,
+          51.4871186
+        ]
+      },
+      "id": "node/4237856432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4264073606",
+        "amenity": "veterinary",
+        "email": "info@parkvets.co.uk",
+        "name": "Park Vets",
+        "opening_hours": "Mo,We 08:00-20:00; Tu-Fr 08:00-19:00; Sa 08:30-12:30",
+        "phone": "+44 20 8542 4524",
+        "website": "https://www.parkvets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2296038,
+          51.4084452
+        ]
+      },
+      "id": "node/4264073606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4268272668",
+        "access": "yes",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:flats": "598",
+        "addr:housenumber": "598",
+        "addr:postcode": "SW20 8DN",
+        "addr:street": "Kingston Road",
+        "addr:suburb": "Raynes Park",
+        "email": "pinchbev@gmail.com",
+        "entrance": "yes",
+        "name": "Top Dog Grooming",
+        "opening_hours": "\"by appointment\"",
+        "phone": "+44 20 8542 9449",
+        "shop": "pet",
+        "website": "https://www.topdoggrooming.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2256203,
+          51.4096787
+        ]
+      },
+      "id": "node/4268272668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4283646848",
+        "addr:city": "Brentford",
+        "addr:country": "GB",
+        "addr:floor": "G",
+        "addr:housenumber": "2-10",
+        "addr:postcode": "TW8 8JW",
+        "addr:street": "London Road",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "check_date": "2025-02-22",
+        "level": "0",
+        "name": "Pets at Home",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su 10:30-16:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+44 845 600 9664",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/brentford/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3143529,
+          51.4821518
+        ]
+      },
+      "id": "node/4283646848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4306185731",
+        "addr:housenumber": "85",
+        "addr:street": "Lavender Hill",
+        "amenity": "veterinary",
+        "name": "All Creatures Veterinary Surgery",
+        "phone": "+44 20 7728 0648",
+        "website": "http://www.allcreatures.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1547511,
+          51.4656437
+        ]
+      },
+      "id": "node/4306185731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360623004",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1003602,
+          51.585982
+        ]
+      },
+      "id": "node/4360623004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362182868",
+        "addr:housenumber": "71",
+        "addr:street": "St Helens Gardens",
+        "amenity": "veterinary",
+        "name": "Village Vet",
+        "phone": "+44 20 8968 8333",
+        "website": "https://villagevet.co.uk/practice/st-helens/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2188979,
+          51.5188818
+        ]
+      },
+      "id": "node/4362182868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4449620030",
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "NW9 7TH",
+        "addr:street": "Silk Bridge Retail Park",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "source": "http://www.openstreetmap.org/note/748948",
+        "website": "https://community.petsathome.com/store/hendon/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2450413,
+          51.5809952
+        ]
+      },
+      "id": "node/4449620030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465336808",
+        "amenity": "veterinary",
+        "name": "Hills"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1296211,
+          51.583807
+        ]
+      },
+      "id": "node/4465336808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465343606",
+        "addr:city": "London",
+        "addr:postcode": "N8 8JR",
+        "addr:street": "Park Road",
+        "addr:substreet": "Veryan Court",
+        "addr:suburb": "Crouch End",
+        "addr:unit": "22",
+        "email": "amelia@shopdogn8.co.uk",
+        "name": "Shop Dog N8",
+        "old_name": "Vintage",
+        "opening_hours": "Mo-Sa 09:00-18:30; Su Off",
+        "shop": "pet",
+        "website": "http://www.shopdogn8.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1272031,
+          51.5824893
+        ]
+      },
+      "id": "node/4465343606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4515403659",
+        "addr:housenumber": "32",
+        "addr:street": "Hardens Manorway",
+        "amenity": "veterinary",
+        "name": "Barrier Animal Care Clinic",
+        "opening_hours": "Mo-Th 08:00-20:00; Fr 08:00-18:30; Sa 09:00-17:00; Su off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0397012,
+          51.4924412
+        ]
+      },
+      "id": "node/4515403659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4654216339",
+        "addr:city": "Chigwell",
+        "addr:housenumber": "211",
+        "addr:postcode": "IG7 4DJ",
+        "addr:street": "Manford Way",
+        "entrance": "yes",
+        "level": "0",
+        "name": "JLS Pet & Garden",
+        "shop": "pet",
+        "source": "survey;gps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1075594,
+          51.6083248
+        ]
+      },
+      "id": "node/4654216339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4681575454",
+        "amenity": "veterinary",
+        "name": "Medivet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.393304,
+          51.5987394
+        ]
+      },
+      "id": "node/4681575454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4681586312",
+        "amenity": "veterinary",
+        "name": "Medivet Stanmore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3095469,
+          51.6178052
+        ]
+      },
+      "id": "node/4681586312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4706545154",
+        "amenity": "veterinary",
+        "check_date": "2024-03-24",
+        "name": "Blythwood Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3810686,
+          51.6051304
+        ]
+      },
+      "id": "node/4706545154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4709897659",
+        "name": "Woofs to Kittys",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1521959,
+          51.4634061
+        ]
+      },
+      "id": "node/4709897659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4720532777",
+        "addr:city": "London",
+        "addr:postcode": "SE9 5LT",
+        "addr:street": "Westhorne Avenue",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "check_date": "2023-12-26",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/eltham/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0300108,
+          51.4499899
+        ]
+      },
+      "id": "node/4720532777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4741843678",
+        "addr:housenumber": "405",
+        "amenity": "veterinary",
+        "name": "Barnfield House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3590801,
+          51.5848481
+        ]
+      },
+      "id": "node/4741843678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4883636477",
+        "barrier": "fence",
+        "leisure": "dog_park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0560675,
+          51.4856153
+        ]
+      },
+      "id": "node/4883636477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4947825549",
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "190",
+        "addr:postcode": "N10 3SD",
+        "addr:street": "Muswell Hill Broadway",
+        "amenity": "veterinary",
+        "contact:phone": "+44 20 3011 1472",
+        "name": "Creature Comforts",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-17:00",
+        "website": "https://www.creaturecomforts.co.uk/locations/muswell-hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1423573,
+          51.5908536
+        ]
+      },
+      "id": "node/4947825549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5069357300",
+        "addr:postcode": "EN2 9DJ",
+        "name": "Kingfisher Aquatics",
+        "shop": "pet",
+        "source": "gps+mapnoter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1023606,
+          51.6834371
+        ]
+      },
+      "id": "node/5069357300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5069357302",
+        "addr:postcode": "EN2 9DJ",
+        "name": "Crews Hill Reptiles",
+        "shop": "pet",
+        "source": "gps+mapnoter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1024894,
+          51.6834471
+        ]
+      },
+      "id": "node/5069357302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5375552653",
+        "amenity": "veterinary",
+        "name": "Joel Veterinary Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4094665,
+          51.5951194
+        ]
+      },
+      "id": "node/5375552653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434053923",
+        "amenity": "veterinary",
+        "name": "Norwood Road Veterinary Surgery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1051346,
+          51.4463306
+        ]
+      },
+      "id": "node/5434053923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5499637720",
+        "addr:city": "London",
+        "addr:housename": "Poplar Vets",
+        "addr:housenumber": "20",
+        "addr:postcode": "E14 6FF",
+        "addr:street": "Morris Road",
+        "amenity": "veterinary",
+        "check_date": "2024-06-22",
+        "currency:XBT": "yes",
+        "email": "poplarvets@gmail.com",
+        "name": "Poplar Vets",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 7515 2505",
+        "website": "https://www.poplarvets.co.uk/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0158039,
+          51.5169529
+        ]
+      },
+      "id": "node/5499637720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5503494577",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/ruislip/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3896578,
+          51.5556269
+        ]
+      },
+      "id": "node/5503494577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5522381891",
+        "addr:city": "London",
+        "addr:housenumber": "159-161",
+        "addr:postcode": "SE13 5PF",
+        "addr:street": "Lee High Road",
+        "amenity": "veterinary",
+        "name": "The Veterinary Practice",
+        "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-12:00",
+        "phone": "+44 20 8318 1020",
+        "website": "http://www.lewishamvets.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0014599,
+          51.4587127
+        ]
+      },
+      "id": "node/5522381891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5554625716",
+        "addr:city": "London",
+        "addr:housenumber": "663;665",
+        "addr:postcode": "SW17 0PB",
+        "addr:street": "Garratt Lane",
+        "amenity": "veterinary",
+        "name": "The Urban Vet",
+        "source:addr": "FHRS Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1862419,
+          51.4360279
+        ]
+      },
+      "id": "node/5554625716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5586220253",
+        "addr:city": "Sutton",
+        "addr:housenumber": "37",
+        "addr:postcode": "SM2 6DF",
+        "addr:street": "Station Road",
+        "name": "Pet Stop",
+        "shop": "pet",
+        "source": "survey",
+        "survey:date": "2018-11-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2018237,
+          51.3440976
+        ]
+      },
+      "id": "node/5586220253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5716917893",
+        "amenity": "veterinary",
+        "check_date": "2024-02-29",
+        "name": "Petwell House Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.427616,
+          51.4969025
+        ]
+      },
+      "id": "node/5716917893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5747208623",
+        "addr:city": "London",
+        "addr:housenumber": "250",
+        "addr:postcode": "SW11 3BP",
+        "addr:street": "Battersea Park Road",
+        "email": "info@diana-george.co.uk",
+        "name": "Diana & George",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00",
+        "phone": "+44 20 7978 6777",
+        "shop": "pet",
+        "website": "https://www.diana-george.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1660314,
+          51.4721194
+        ]
+      },
+      "id": "node/5747208623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5749699552",
+        "amenity": "veterinary",
+        "name": "Metro Vet",
+        "operator": "Villege Vet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0942684,
+          51.5983036
+        ]
+      },
+      "id": "node/5749699552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5784878100",
+        "addr:city": "Croydon",
+        "addr:housenumber": "335",
+        "addr:postcode": "CR0 6RG",
+        "addr:street": "Lower Addiscombe Road",
+        "amenity": "veterinary",
+        "name": "Croydon Veterinary Surgery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0691125,
+          51.3823639
+        ]
+      },
+      "id": "node/5784878100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5802408617",
+        "name": "Paws",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.103831,
+          51.3459722
+        ]
+      },
+      "id": "node/5802408617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5805280987",
+        "addr:city": "South Croydon",
+        "addr:housenumber": "120",
+        "addr:postcode": "CR2 6PG",
+        "addr:street": "Selsdon Road",
+        "name": "Pet Grooming",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0950635,
+          51.3593422
+        ]
+      },
+      "id": "node/5805280987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890222436",
+        "addr:city": "Thornton Heath",
+        "addr:housenumber": "81",
+        "addr:postcode": "CR7 8LN",
+        "addr:street": "Woodville Road",
+        "amenity": "veterinary",
+        "name": "Veterinary Surgery",
+        "opening_hours": "Mo-Fr 08:00-11:00,16:00-18:30; Sa 09:00-13:00; Su off",
+        "operator": "Mark Nelson",
+        "source": "survey;website",
+        "website": "https://www.marknelsonvet.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0948598,
+          51.4014589
+        ]
+      },
+      "id": "node/5890222436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5941322048",
+        "addr:city": "Carshalton",
+        "addr:housenumber": "93b",
+        "addr:postcode": "SM5 3NP",
+        "addr:street": "Banstead Road",
+        "name": "Pets World",
+        "shop": "pet",
+        "source": "survey",
+        "survey:date": "2018-09-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1736367,
+          51.3566965
+        ]
+      },
+      "id": "node/5941322048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5955648752",
+        "addr:city": "Croydon",
+        "addr:housenumber": "356",
+        "addr:postcode": "CR0 7AF",
+        "addr:street": "Lower Addiscombe Road",
+        "amenity": "veterinary",
+        "brand": "Goddard Veterinary Group",
+        "brand:wikidata": "Q120587989",
+        "name": "Goddard Veterinary Group",
+        "source": "survey",
+        "survey:date": "2018-10-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0655924,
+          51.3832411
+        ]
+      },
+      "id": "node/5955648752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5965866585",
+        "addr:housenumber": "209",
+        "addr:street": "Blackstock Road",
+        "amenity": "veterinary",
+        "name": "Village Vet",
+        "opening_hours": "Mo-Tu, Th-Fr 08:30-19:00; We 08:30-12:30; Sa 09:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0984427,
+          51.5598966
+        ]
+      },
+      "id": "node/5965866585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5978888901",
+        "addr:city": "Croydon",
+        "addr:housenumber": "814-816",
+        "addr:postcode": "CR0 8EB",
+        "addr:street": "Wickham Road",
+        "name": "Scallywags Pet Shop & Grooming Centre",
+        "shop": "pet",
+        "source": "survey",
+        "survey:date": "2018-10-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0276836,
+          51.3771058
+        ]
+      },
+      "id": "node/5978888901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5999891642",
+        "addr:city": "Croydon",
+        "addr:housenumber": "7",
+        "addr:postcode": "CR0 0JG",
+        "addr:street": "Salcot Crescent",
+        "addr:village": "New Addington",
+        "amenity": "veterinary",
+        "name": "Goddard Veterinary Group",
+        "opening_hours": "Mo-Tu,Th-Fr 08:30-19:00; We 08:30-12:00; Sa 13:30-16:30; Su off",
+        "source": "survey",
+        "survey:date": "2018-10-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.016255,
+          51.3430035
+        ]
+      },
+      "id": "node/5999891642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5999891665",
+        "addr:city": "Croydon",
+        "addr:housenumber": "23",
+        "addr:postcode": "CR0 0JB",
+        "addr:street": "Central Parade",
+        "addr:village": "New Addington",
+        "name": "Burgess Boys",
+        "shop": "pet",
+        "source": "survey",
+        "survey:date": "2018-10-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0152448,
+          51.3418893
+        ]
+      },
+      "id": "node/5999891665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6022819611",
+        "addr:city": "Croydon",
+        "addr:housenumber": "28b",
+        "addr:postcode": "CR0 4TB",
+        "addr:street": "Beddington Lane",
+        "name": "Living Waters",
+        "shop": "pet",
+        "source": "survey;code-point open",
+        "survey:date": "2018-10-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1314248,
+          51.3717158
+        ]
+      },
+      "id": "node/6022819611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6034012005",
+        "addr:city": "Mitcham",
+        "addr:housenumber": "4",
+        "addr:postcode": "CR4 2PA",
+        "addr:street": "Upper Green East",
+        "amenity": "veterinary",
+        "name": "Mitcham Veterinary Surgery",
+        "source": "survey;code-point open"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1631683,
+          51.4047927
+        ]
+      },
+      "id": "node/6034012005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6083555590",
+        "addr:city": "Carshalton",
+        "addr:housenumber": "8",
+        "addr:postcode": "SM5 2DW",
+        "addr:street": "Green Wrythe Lane",
+        "name": "Purr-fect For Pets",
+        "shop": "pet",
+        "source": "survey;code-point open",
+        "survey:date": "2018-11-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1672425,
+          51.372237
+        ]
+      },
+      "id": "node/6083555590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6110818405",
+        "addr:city": "Uxbridge",
+        "addr:housenumber": "65",
+        "addr:street": "Belmont Road",
+        "amenity": "veterinary",
+        "check_date": "2024-08-11",
+        "contact:phone": "+44 1895 760071",
+        "name": "Uxbridge Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4776008,
+          51.5484133
+        ]
+      },
+      "id": "node/6110818405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6266983188",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/new-malden/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2385788,
+          51.4050107
+        ]
+      },
+      "id": "node/6266983188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6293653475",
+        "amenity": "veterinary",
+        "name": "Village Vet Winchmore Hill",
+        "source": "Geograph",
+        "source:geograph:id": "2553937"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0950736,
+          51.6321352
+        ]
+      },
+      "id": "node/6293653475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432934095",
+        "amenity": "veterinary",
+        "check_date": "2023-08-05",
+        "name": "Village Vet",
+        "opening_hours": "Mo-Th 09:00-19:00; Fr 09:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1990421,
+          51.5927801
+        ]
+      },
+      "id": "node/6432934095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6535716226",
+        "addr:housenumber": "9-11",
+        "addr:street": "St John's Wood High Street",
+        "amenity": "veterinary",
+        "check_date": "2024-11-06",
+        "name": "Creature Comforts",
+        "opening_hours": "Mo-Fr 08:30-19:00; Su 10:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1695929,
+          51.5324289
+        ]
+      },
+      "id": "node/6535716226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6538679700",
+        "addr:housenumber": "53",
+        "addr:street": "Charlbert Street",
+        "amenity": "veterinary",
+        "check_date": "2024-07-31",
+        "name": "Medivet",
+        "opening_hours": "Mo-Th 09:00-18:00; Fr-Sa 09:00-17:00",
+        "phone": "+44 20 3993 5304",
+        "website": "https://www.medivet.co.uk/vet-practices/st-johns-wood/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1688147,
+          51.5346975
+        ]
+      },
+      "id": "node/6538679700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6631981304",
+        "addr:housenumber": "99",
+        "addr:street": "Boundary Road",
+        "check_date": "2025-02-11",
+        "name": "Hairy Hounds",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1851377,
+          51.5372524
+        ]
+      },
+      "id": "node/6631981304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6683963693",
+        "addr:city": "London",
+        "addr:housenumber": "15",
+        "addr:postcode": "EC1M 5PA",
+        "addr:street": "Clerkenwell Road",
+        "addr:suburb": "Clerkenwell",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "check_date": "2025-03-10",
+        "contact:phone": "+44 20 7017 8950",
+        "contact:website": "https://www.medivetgroup.com/vet-practices/clerkenwell/",
+        "name": "Medivet",
+        "old_name": "Clerkenwell Animal Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0992747,
+          51.5227078
+        ]
+      },
+      "id": "node/6683963693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6875270200",
+        "addr:city": "London",
+        "addr:housenumber": "391",
+        "addr:postcode": "SW15 5QL",
+        "addr:street": "Upper Richmond Road",
+        "name": "Mucky Pups Pet Shop",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2388224,
+          51.4645549
+        ]
+      },
+      "id": "node/6875270200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6955013289",
+        "addr:housenumber": "61-63",
+        "addr:street": "Connaught Street",
+        "amenity": "veterinary",
+        "name": "Hyde Park Veterinary Centre",
+        "phone": "+44 20 7723 0453",
+        "website": "https://www.medivet.co.uk/vet-practices/hyde-park/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1672524,
+          51.5141786
+        ]
+      },
+      "id": "node/6955013289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7052490220",
+        "addr:housenumber": "35",
+        "addr:street": "Alexander Street",
+        "amenity": "veterinary",
+        "name": "Bayswater Veterinary Clinic",
+        "phone": "+44 20 7229 2040",
+        "website": "https://www.bayswaterveterinaryreferrals.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1924812,
+          51.5173826
+        ]
+      },
+      "id": "node/7052490220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7129171604",
+        "addr:housenumber": "26",
+        "addr:street": "Chepstow Corner",
+        "amenity": "veterinary",
+        "name": "Pets Naturally",
+        "phone": "+44 20 7221 9200",
+        "website": "http://www.petsnaturally.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1950231,
+          51.5144564
+        ]
+      },
+      "id": "node/7129171604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7171571209",
+        "name": "Pet Pavilion",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1640785,
+          51.4610352
+        ]
+      },
+      "id": "node/7171571209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7199657177",
+        "addr:housenumber": "106",
+        "addr:street": "Talbot Road",
+        "amenity": "veterinary",
+        "name": "Notting Hill Vet",
+        "phone": "+44 20 7229 9797",
+        "website": "https://www.baronscourtvet.co.uk/find-and-contact/notting-hill/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2001943,
+          51.5169063
+        ]
+      },
+      "id": "node/7199657177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7199663471",
+        "addr:housenumber": "221",
+        "addr:street": "Westbourne Park Road",
+        "name": "The Mutz Nutz",
+        "phone": "+44 20 7243 3333",
+        "shop": "pet",
+        "website": "https://themutznutz.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2014768,
+          51.5176915
+        ]
+      },
+      "id": "node/7199663471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7238530393",
+        "name": "The Fish Bowl",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2056509,
+          51.4805764
+        ]
+      },
+      "id": "node/7238530393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246221244",
+        "addr:housenumber": "31",
+        "addr:street": "Bevington Road",
+        "name": "Portobello Pet Shop",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2092244,
+          51.5210448
+        ]
+      },
+      "id": "node/7246221244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7246221245",
+        "addr:housenumber": "308",
+        "addr:street": "Portobello Road",
+        "name": "Portobello Pet Shop",
+        "phone": "+44 20 8969 7894",
+        "shop": "pet",
+        "website": "https://portopets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2092515,
+          51.5209322
+        ]
+      },
+      "id": "node/7246221245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7256628444",
+        "addr:city": "Mitcham",
+        "addr:housenumber": "145",
+        "addr:postcode": "CR4 4DG",
+        "addr:street": "Morden Road",
+        "addr:unit": "1",
+        "amenity": "veterinary",
+        "name": "The Vet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.179814,
+          51.3991044
+        ]
+      },
+      "id": "node/7256628444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7278470830",
+        "amenity": "veterinary",
+        "name": "The Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1004405,
+          51.5620031
+        ]
+      },
+      "id": "node/7278470830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7285393688",
+        "addr:housenumber": "163",
+        "addr:street": "King's Road",
+        "name": "Pet Pavilion",
+        "phone": "+44 20 4524 1000",
+        "shop": "pet",
+        "website": "https://www.petpavilion.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1677412,
+          51.4877457
+        ]
+      },
+      "id": "node/7285393688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7353288606",
+        "addr:housenumber": "5",
+        "addr:street": "Clarendon Cross",
+        "name": "Clarendon Cross Canines",
+        "phone": "+44 20 7221 7730",
+        "shop": "pet",
+        "website": "https://www.canines.cc/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2103439,
+          51.5103825
+        ]
+      },
+      "id": "node/7353288606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7353477026",
+        "addr:housenumber": "115",
+        "addr:street": "Clarendon Road",
+        "name": "Yuppy Puppies",
+        "phone": "+44 20 7243 3231",
+        "shop": "pet",
+        "website": "http://yuppypuppiespetboutique.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2110881,
+          51.5124156
+        ]
+      },
+      "id": "node/7353477026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7353571922",
+        "amenity": "veterinary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1678878,
+          51.5899184
+        ]
+      },
+      "id": "node/7353571922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7370227699",
+        "leisure": "dog_park",
+        "name": "Newby Place Dog Park",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0122121,
+          51.5089891
+        ]
+      },
+      "id": "node/7370227699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7391743299",
+        "addr:housenumber": "9",
+        "addr:street": "Addison Avenue",
+        "amenity": "veterinary",
+        "name": "Addison & Holland Park Veterinary Clinic",
+        "phone": "+44 20 7603 4407",
+        "website": "http://www.addisonandhollandparkveterinaryclinic.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2122518,
+          51.5060266
+        ]
+      },
+      "id": "node/7391743299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7433744057",
+        "addr:housenumber": "262",
+        "addr:street": "Kensington High Street",
+        "name": "Holland Bark Club",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2004402,
+          51.4987434
+        ]
+      },
+      "id": "node/7433744057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7489968396",
+        "addr:housenumber": "137",
+        "addr:street": "Kensington Church Street",
+        "amenity": "veterinary",
+        "name": "Kensington Veterinary Care",
+        "phone": "+44 20 7221 3093",
+        "website": "https://www.kensingtonvetcare.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.194972,
+          51.5075315
+        ]
+      },
+      "id": "node/7489968396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7546781931",
+        "addr:housenumber": "174",
+        "addr:street": "Kensington Church Street",
+        "name": "Pet Pavilion",
+        "phone": "+44 20 7221 1888",
+        "shop": "pet",
+        "website": "https://www.petpavilion.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1948168,
+          51.5082864
+        ]
+      },
+      "id": "node/7546781931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7730569302",
+        "addr:city": "London",
+        "addr:housenumber": "79",
+        "addr:postcode": "SE1 3BW",
+        "addr:street": "Grange Road",
+        "amenity": "veterinary",
+        "branch": "Southwark",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "email": "southwark@medivet.co.uk",
+        "name": "Medivet",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 15:00-19:00",
+        "operator": "Medivet",
+        "phone": "+44 20 7232 2637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0764201,
+          51.49477
+        ]
+      },
+      "id": "node/7730569302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7812042569",
+        "addr:city": "London",
+        "addr:housenumber": "74",
+        "addr:postcode": "E20 1DB",
+        "addr:street": "Celebration Avenue",
+        "amenity": "veterinary",
+        "name": "Every Tail Vets",
+        "was:brand": "9Round",
+        "was:brand:wikidata": "Q120122534",
+        "was:leisure": "fitness_centre",
+        "was:name": "9Round",
+        "was:sport": "kickboxing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0079443,
+          51.5478061
+        ]
+      },
+      "id": "node/7812042569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7829217026",
+        "addr:city": "Isleworth",
+        "addr:housenumber": "250",
+        "addr:postcode": "TW7 7DT",
+        "addr:street": "Twickenham Road",
+        "amenity": "veterinary",
+        "name": "Veterinary Health Centre",
+        "phone": "+44 20 8892 4432"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3311029,
+          51.4638907
+        ]
+      },
+      "id": "node/7829217026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7833153858",
+        "amenity": "veterinary",
+        "name": "My Vet 24-7",
+        "website": "https://myvet24-7.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4538087,
+          51.5257209
+        ]
+      },
+      "id": "node/7833153858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7952703023",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/dagenham/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1453297,
+          51.5306336
+        ]
+      },
+      "id": "node/7952703023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8022617067",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/romford/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1838903,
+          51.5696066
+        ]
+      },
+      "id": "node/8022617067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8022617068",
+        "amenity": "veterinary",
+        "brand": "Vets4Pets",
+        "brand:wikidata": "Q16960196",
+        "name": "Vets4Pets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1836424,
+          51.5698025
+        ]
+      },
+      "id": "node/8022617068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8111404917",
+        "addr:housenumber": "90",
+        "addr:street": "Fulham Road",
+        "amenity": "veterinary",
+        "name": "Brompton Veterinary Clinic",
+        "phone": "+44 20 7225 2915",
+        "website": "https://bromptonvetclinic.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1750603,
+          51.4899722
+        ]
+      },
+      "id": "node/8111404917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8121516610",
+        "addr:city": "London",
+        "addr:housenumber": "40",
+        "addr:postcode": "SW19 3QN",
+        "addr:street": "Dundonald Road",
+        "amenity": "veterinary",
+        "brand": "Goddard Veterinary Group",
+        "brand:wikidata": "Q120587989",
+        "name": "Goddard Veterinary Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2095864,
+          51.4164752
+        ]
+      },
+      "id": "node/8121516610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8183254717",
+        "addr:housenumber": "364-366",
+        "addr:street": "Fulham Road",
+        "amenity": "veterinary",
+        "name": "Chelsea Veterinary Clinic",
+        "phone": "+44 20 7823 3111",
+        "website": "https://www.waggintailsonline.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.187797,
+          51.4814609
+        ]
+      },
+      "id": "node/8183254717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8183254718",
+        "addr:housenumber": "364-366",
+        "addr:street": "Fulham Road",
+        "name": "Waggin' Tails",
+        "phone": "+44 20 7823 3111",
+        "shop": "pet",
+        "website": "https://www.waggintailsonline.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1878389,
+          51.4814234
+        ]
+      },
+      "id": "node/8183254718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8260173149",
+        "addr:housenumber": "308",
+        "addr:street": "King's Road",
+        "name": "Love My Human",
+        "phone": "+44 20 7971 7338",
+        "shop": "pet",
+        "website": "https://www.lovemyhuman.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1735627,
+          51.4857352
+        ]
+      },
+      "id": "node/8260173149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8367416537",
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:housename": "1A Cowley Retail Park",
+        "addr:postcode": "UB8 2TE",
+        "addr:street": "High Road",
+        "addr:suburb": "Cowley",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "operator": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/uxbridge/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4779851,
+          51.5173428
+        ]
+      },
+      "id": "node/8367416537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8388668484",
+        "brand": "Pets Corner",
+        "brand:wikidata": "Q17018476",
+        "check_date": "2025-09-21",
+        "level": "0",
+        "name": "Pets Corner",
+        "shop": "pet",
+        "website": "https://www.petscorner.co.uk/stores/pets-corner-stores-acton/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2778339,
+          51.5063067
+        ]
+      },
+      "id": "node/8388668484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8394120954",
+        "amenity": "veterinary",
+        "name": "Rosemary Avenue Veterinary Clinic",
+        "phone": "+44 20 8366 0634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0763846,
+          51.664318
+        ]
+      },
+      "id": "node/8394120954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8411448077",
+        "amenity": "veterinary",
+        "name": "Blythwood Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3168774,
+          51.6212004
+        ]
+      },
+      "id": "node/8411448077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8417964261",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.140198,
+          51.4145414
+        ]
+      },
+      "id": "node/8417964261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8460916652",
+        "addr:street": "Ponsard Road",
+        "amenity": "veterinary",
+        "name": "The Mayhew Vet Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2331235,
+          51.5313891
+        ]
+      },
+      "id": "node/8460916652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8478124757",
+        "name": "The Pet Place",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001254,
+          51.3699871
+        ]
+      },
+      "id": "node/8478124757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8518413376",
+        "addr:city": "Orpington",
+        "addr:postcode": "BR5 3RP",
+        "addr:street": "Cray Avenue",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 11:00-17:00",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/orpington/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.113109,
+          51.3921781
+        ]
+      },
+      "id": "node/8518413376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8604144577",
+        "amenity": "veterinary",
+        "brand": "Goddard Veterinary Group",
+        "brand:wikidata": "Q120587989",
+        "name": "Goddard Veterinary Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1606223,
+          51.42242
+        ]
+      },
+      "id": "node/8604144577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8608616048",
+        "name": "Market Pets",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1661364,
+          51.4285803
+        ]
+      },
+      "id": "node/8608616048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8639477157",
+        "addr:housename": "Tooting Market",
+        "addr:unit": "9",
+        "name": "Paws",
+        "shop": "pet",
+        "website": "https://www.etsy.com/uk/shop/pawspetsupply/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1662972,
+          51.4289667
+        ]
+      },
+      "id": "node/8639477157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8658910072",
+        "check_date": "2025-09-15",
+        "name": "Brockwell Pups",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1008411,
+          51.4478047
+        ]
+      },
+      "id": "node/8658910072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8682472026",
+        "amenity": "veterinary",
+        "name": "Broadway Veterinary Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1684595,
+          51.4284011
+        ]
+      },
+      "id": "node/8682472026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8707334330",
+        "addr:city": "London",
+        "addr:housenumber": "94",
+        "addr:postcode": "W13 9RT",
+        "addr:street": "Northfield Avenue",
+        "check_date": "2025-05-17",
+        "level": "0",
+        "name": "Pet Avenue",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00; Su 09:00-16:00",
+        "phone": "+44 7599 453590",
+        "shop": "pet",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3172946,
+          51.5031971
+        ]
+      },
+      "id": "node/8707334330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8714409427",
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "160",
+        "addr:postcode": "W13 9SB",
+        "addr:street": "Northfield Avenue",
+        "amenity": "veterinary",
+        "check_date": "2025-07-13",
+        "level": "0",
+        "name": "Alcombe Veterinary Surgery",
+        "phone": "+44 20 8567 4597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3158156,
+          51.5016013
+        ]
+      },
+      "id": "node/8714409427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8736143953",
+        "amenity": "veterinary",
+        "contact:phone": "+44 20 8896 0398",
+        "contact:website": "http://goddardvetgroup.co.uk",
+        "name": "Goddard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2669551,
+          51.5165942
+        ]
+      },
+      "id": "node/8736143953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8849164597",
+        "amenity": "veterinary",
+        "name": "All Creatures Clinic",
+        "phone": "+441689490955",
+        "website": "https://www.allcreaturesclinic.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.055687,
+          51.3677384
+        ]
+      },
+      "id": "node/8849164597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9071690602",
+        "addr:city": "London",
+        "addr:housenumber": "151-153",
+        "addr:postcode": "E16 4HQ",
+        "addr:street": "Barking Road",
+        "addr:suburb": "Canning Town",
+        "amenity": "animal_shelter",
+        "animal_shelter": "cat",
+        "animal_shelter:adoption": "yes",
+        "animal_shelter:sanctuary": "yes",
+        "check_date": "2023-03-07",
+        "email": "canningtown@celiahammond.org",
+        "level": "0",
+        "name": "Celia Hammond Animal Trust",
+        "operator": "Celia Hammond",
+        "phone": "+44 20 7474 8811",
+        "website": "https://www.celiahammond.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0125522,
+          51.5179355
+        ]
+      },
+      "id": "node/9071690602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9095853615",
+        "addr:city": "London",
+        "addr:postcode": "SE7 7TZ",
+        "addr:street": "Peninsular Park Road",
+        "addr:unit": "3",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "name": "Pets at Home",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 10:30-16:30",
+        "phone": "+44 345 601 5180",
+        "shop": "pet",
+        "website": "https://www.petsathome.com/find-us/locations/pet-care-centre/charlton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0209584,
+          51.488963
+        ]
+      },
+      "id": "node/9095853615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9129768936",
+        "addr:housenumber": "75",
+        "addr:street": "Masbro Road",
+        "amenity": "veterinary",
+        "name": "Village Vet",
+        "phone": "+44 20 7603 5150",
+        "source": "Bing;survey",
+        "website": "https://villagevet.co.uk/practice/brook-green/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2156614,
+          51.4997736
+        ]
+      },
+      "id": "node/9129768936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9193133714",
+        "amenity": "veterinary",
+        "check_date": "2022-08-14",
+        "level": "0",
+        "name": "Paws in the City",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-12:00; Su off",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3067398,
+          51.5137148
+        ]
+      },
+      "id": "node/9193133714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9247315181",
+        "addr:housenumber": "22",
+        "addr:street": "Market Place",
+        "amenity": "veterinary",
+        "name": "medivet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1828019,
+          51.585709
+        ]
+      },
+      "id": "node/9247315181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9247315182",
+        "name": "Pet Boutique",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1826531,
+          51.5856924
+        ]
+      },
+      "id": "node/9247315182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9328106311",
+        "addr:city": "London",
+        "addr:housenumber": "225",
+        "addr:postcode": "SW15 6SJ",
+        "addr:street": "Upper Richmond Road",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "brand:wikipedia": "en:Pets at Home",
+        "name": "Pets at Home",
+        "phone": "+44 345 266 9991",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/putney/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2216824,
+          51.4619193
+        ]
+      },
+      "id": "node/9328106311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9343328631",
+        "addr:city": "London",
+        "addr:housename": "Inside Pets at Home",
+        "addr:housenumber": "100",
+        "addr:postcode": "SE10 8DA",
+        "addr:street": "Blackheath Road",
+        "amenity": "veterinary",
+        "brand": "Vets4Pets",
+        "brand:wikidata": "Q16960196",
+        "check_date": "2025-07-13",
+        "name": "Vets4Pets",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su 10:00-16:00",
+        "phone": "+44 20 8692 4375",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0171137,
+          51.4722157
+        ]
+      },
+      "id": "node/9343328631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9419266000",
+        "addr:city": "London",
+        "addr:housenumber": "133",
+        "addr:postcode": "N10 1HD",
+        "addr:street": "Colney Hatch Lane",
+        "amenity": "veterinary",
+        "name": "Medivet",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 14:00-15:00",
+        "phone": "+44 20 8883 3648",
+        "website": "https://www.medivet.co.uk/vet-practices/muswell-hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1481728,
+          51.6009865
+        ]
+      },
+      "id": "node/9419266000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9448291007",
+        "addr:city": "London",
+        "addr:housenumber": "65",
+        "addr:postcode": "N10 1LR",
+        "addr:street": "Colney Hatch Lane",
+        "amenity": "veterinary",
+        "check_date:opening_hours": "2023-02-04",
+        "name": "Pawvet Clinic",
+        "opening_hours:signed": "no",
+        "reservation": "required",
+        "website": "https://www.pawvet.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1471346,
+          51.5990939
+        ]
+      },
+      "id": "node/9448291007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9537720707",
+        "addr:city": "London",
+        "addr:housenumber": "6-8",
+        "addr:postcode": "N10 3RT",
+        "addr:street": "Muswell Hill Broadway",
+        "name": "Broadway Pet Stores",
+        "opening_hours": "Tu-Sa 09:00-17:30",
+        "phone": "+44 20 8883 3200",
+        "shop": "pet",
+        "website": "https://www.broadwaypetstores.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1446066,
+          51.5892766
+        ]
+      },
+      "id": "node/9537720707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9888555552",
+        "addr:housenumber": "2",
+        "addr:street": "Wells Terrace",
+        "name": "Fish Planet London",
+        "pet": "fish",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1085342,
+          51.5649955
+        ]
+      },
+      "id": "node/9888555552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9979753905",
+        "addr:housenumber": "60",
+        "addr:street": "High Street",
+        "name": "Waggles Pet Emporium",
+        "phone": "+44 20 8325 1717",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0175292,
+          51.3763533
+        ]
+      },
+      "id": "node/9979753905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9992326746",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125077,
+          51.4660604
+        ]
+      },
+      "id": "node/9992326746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10013731514",
+        "addr:housenumber": "32",
+        "addr:street": "The Village",
+        "contact:phone": "+44 20 8856 1066",
+        "name": "Charlton Reptiles & Aquatics",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0378621,
+          51.4819439
+        ]
+      },
+      "id": "node/10013731514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10056510814",
+        "addr:housenumber": "158A",
+        "addr:street": "Columbia Road",
+        "name": "Dog Walk Style",
+        "shop": "pet",
+        "website": "https://dogwalkstyle.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0688242,
+          51.5296564
+        ]
+      },
+      "id": "node/10056510814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10095832949",
+        "addr:city": "London",
+        "addr:housenumber": "171",
+        "addr:street": "Powis Street",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "contact:website": "https://www.medivet.co.uk/vet-practices/woolwich/",
+        "name": "Medivet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.061647,
+          51.4927858
+        ]
+      },
+      "id": "node/10095832949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10157383251",
+        "addr:city": "Dartford",
+        "addr:parentstreet": "Crayford Road",
+        "addr:street": "Tower Retail Park",
+        "addr:town": "Crayford",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "check_date": "2024-10-05",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "survey:date": "2021-03-15",
+        "website": "https://community.petsathome.com/store/crayford/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.182733,
+          51.4510036
+        ]
+      },
+      "id": "node/10157383251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10159173818",
+        "addr:city": "Dartford",
+        "addr:street": "Crayford High Street",
+        "addr:town": "Crayford",
+        "fixme": "name?",
+        "shop": "pet",
+        "survey:date": "2020-07-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.177923,
+          51.452272
+        ]
+      },
+      "id": "node/10159173818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10212736512",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "name": "Medivet",
+        "website": "https://www.medivet.co.uk/vet-practices/north-finchley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.176943,
+          51.6185447
+        ]
+      },
+      "id": "node/10212736512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10253435789",
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "SE3 7BT",
+        "addr:street": "Old Dover Road",
+        "contact:facebook": "blackheathpetsupplies",
+        "contact:instagram": "blackheathpetsupplies",
+        "contact:twitter": "BlackheathPets",
+        "level": "0",
+        "name": "Blackheath Pet Supplies",
+        "opening_hours": "Mo-Sa 10:00-15:00",
+        "phone": "+44 20 8305 1265",
+        "shop": "pet",
+        "website": "https://blackheathpetsupplies.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0209929,
+          51.4769793
+        ]
+      },
+      "id": "node/10253435789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10253519316",
+        "addr:city": "London",
+        "addr:housenumber": "15a",
+        "addr:street": "Greenwich South Street",
+        "amenity": "veterinary",
+        "branch": "Greenwich",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "name": "Medivet",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:30,15:00-18:00; ",
+        "phone": "+44 20 8853 0461",
+        "website": "https://www.medivet.co.uk/vet-practices/greenwich/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Fairly narrow front door, small step. Ok for some wheelchair with kerb climber ... but bumpy ride. Waiting room accessible, consulting room accessible but small. Staff friendly and helpful."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0121232,
+          51.4774663
+        ]
+      },
+      "id": "node/10253519316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10271116593",
+        "addr:city": "London",
+        "addr:housenumber": "105",
+        "addr:postcode": "SE3 7LW",
+        "addr:street": "Humber Road",
+        "amenity": "veterinary",
+        "email": "reception@blackheathvets.co.uk",
+        "name": "Blackheath Veterinary Surgery",
+        "opening_hours": "Mo-Fr 08:30-18:30, We 08:30-19:00; Sa 09:00-14:00; Su off",
+        "operator": "DNA Vetcare Group",
+        "phone": "+44 20 8858 5151",
+        "website": "https://www.blackheathvets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0165929,
+          51.483592
+        ]
+      },
+      "id": "node/10271116593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10272891485",
+        "addr:city": "London",
+        "addr:housenumber": "14",
+        "addr:postcode": "N8 7RD",
+        "addr:street": "Priory Road",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "name": "Medivet",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa Off; Su Off",
+        "phone": "+44 2083 475 200",
+        "website": "https://www.medivetgroup.com/vet-practices/crouch-end/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.123999,
+          51.5870828
+        ]
+      },
+      "id": "node/10272891485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10280308640",
+        "addr:city": "London",
+        "addr:housenumber": "32",
+        "addr:postcode": "SE3 0TA",
+        "addr:street": "Montpelier Vale",
+        "brand": "Pets Corner",
+        "brand:wikidata": "Q17018476",
+        "check_date": "2025-09-12",
+        "email": "blackheath@petscorner.co.uk",
+        "name": "Pets Corner",
+        "opening_hours": "Mo-Sa 09:00-18:00; Su 10:00-16:30",
+        "opening_hours:signed": "no",
+        "phone": "+44 20 8852 9111",
+        "shop": "pet",
+        "website": "https://www.petscorner.co.uk/stores/pets-corner-stores-blackheath/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0087711,
+          51.4671374
+        ]
+      },
+      "id": "node/10280308640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10286714675",
+        "addr:city": "London",
+        "addr:housenumber": "154a",
+        "addr:postcode": "SE3 8RP",
+        "addr:street": "Shooters Hill Road",
+        "amenity": "veterinary",
+        "contact:facebook": "https://www.facebook.com/theanimalclinic1/",
+        "contact:instagram": "https://www.instagram.com/DNAVETCARE/",
+        "email": "reception@animal-clinic.co.uk",
+        "name": "The Animal Clinic",
+        "opening_hours": "Mo-Fr 08:30-18:30; Sa 08:30-13:00",
+        "phone": "+44 20 8319 3033",
+        "website": "https://www.animal-clinic.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.032807,
+          51.4747738
+        ]
+      },
+      "id": "node/10286714675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10557816981",
+        "addr:city": "Orpington",
+        "addr:housenumber": "10",
+        "addr:postcode": "BR5 1NA",
+        "addr:street": "Station Square",
+        "addr:suburb": "Petts Wood",
+        "amenity": "veterinary",
+        "name": "Allpets Veterinary Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0747398,
+          51.3898607
+        ]
+      },
+      "id": "node/10557816981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10559413179",
+        "addr:street": "East End Road",
+        "amenity": "veterinary",
+        "name": "Village Vet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1787094,
+          51.5915248
+        ]
+      },
+      "id": "node/10559413179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602825027",
+        "amenity": "veterinary",
+        "name": "Goddard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0786964,
+          51.5909287
+        ]
+      },
+      "id": "node/10602825027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10608670365",
+        "addr:city": "London",
+        "addr:postcode": "N12 0DY",
+        "addr:street": "High Road",
+        "amenity": "veterinary",
+        "name": "The Finchley Vet",
+        "phone": "+44 20 3603 4441",
+        "website": "https://www.thefinchleyvet.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1754197,
+          51.6085775
+        ]
+      },
+      "id": "node/10608670365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10632592996",
+        "addr:city": "Beckenham",
+        "addr:country": "GB",
+        "addr:housename": "The Stables",
+        "addr:place": "Beckenham Place Park",
+        "addr:postcode": "BR3 5BP",
+        "check_date": "2025-08-09",
+        "contact:email": "info@eddiesdogshop.com",
+        "contact:facebook": "https://www.facebook.com/102532101925601",
+        "contact:instagram": "https://www.instagram.com/eddies_dog_shop",
+        "contact:phone": "+44 7702 367453",
+        "dog": "yes",
+        "name": "Eddie's Dog Shop",
+        "opening_hours": "Tu 08:00-16:00;We-Th 08:00-16:30;Fr-Sa 08:00-17:30;Su 08:00-16:30",
+        "shop": "pet",
+        "website": "https://www.eddiesdogshop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0178082,
+          51.4199127
+        ]
+      },
+      "id": "node/10632592996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10746817237",
+        "amenity": "veterinary",
+        "name": "Goddard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.107058,
+          51.5070481
+        ]
+      },
+      "id": "node/10746817237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10746817301",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "name": "Pets at Home",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/thamesmead/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1033359,
+          51.5062582
+        ]
+      },
+      "id": "node/10746817301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10778401935",
+        "amenity": "veterinary",
+        "check_date": "2023-04-01",
+        "level": "0",
+        "name": "Fitzgerald Veterinary Care"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0206664,
+          51.4434894
+        ]
+      },
+      "id": "node/10778401935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10783444522",
+        "addr:city": "Ilford",
+        "addr:housenumber": "159",
+        "addr:postcode": "IG6 2AJ",
+        "addr:street": "High Street",
+        "addr:village": "Barkingside",
+        "name": "Catwalk",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0840331,
+          51.5928274
+        ]
+      },
+      "id": "node/10783444522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10795131767",
+        "addr:city": "London",
+        "addr:housenumber": "115-117",
+        "addr:postcode": "E18 1EJ",
+        "addr:street": "Maybank Road",
+        "name": "Reptile Ranch",
+        "shop": "pet",
+        "source": "survey",
+        "website": "https://www.woodfordaquatics.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0331121,
+          51.5958292
+        ]
+      },
+      "id": "node/10795131767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10814426219",
+        "addr:city": "London",
+        "addr:housenumber": "20",
+        "addr:postcode": "SW9 0JG",
+        "addr:street": "Clapham Road",
+        "name": "The Hound Hut",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-16:00",
+        "operator": "The Hound Hut",
+        "pet": "dog",
+        "shop": "pet",
+        "website": "https://www.thehoundhut.dog"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1138896,
+          51.4807163
+        ]
+      },
+      "id": "node/10814426219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11031837548",
+        "name": "Handsome Hound",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1352945,
+          51.4425596
+        ]
+      },
+      "id": "node/11031837548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11034049539",
+        "addr:housenumber": "54",
+        "addr:street": "Stoke Newington Church Street",
+        "check_date": "2023-07-15",
+        "name": "Dogsnug",
+        "opening_hours": "Mo,Su 11:00-17:00; Tu-Fr 10:30-18:00; Sa 10:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+447723679921",
+        "shop": "pet",
+        "website": "https://www.dogsnug.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0760762,
+          51.5622442
+        ]
+      },
+      "id": "node/11034049539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11064397492",
+        "name": "Donna's Pet Shop",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0034652,
+          51.4242534
+        ]
+      },
+      "id": "node/11064397492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11069276806",
+        "addr:housenumber": "4",
+        "addr:street": "Ringstead Road",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "check_date": "2023-07-26",
+        "contact:phone": "+44 20 8697 0857",
+        "level": "0",
+        "name": "Medivet",
+        "opening_hours": "Mo-Fr 08:30-18:30; Sa 15:00-18:00",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0181085,
+          51.4465738
+        ]
+      },
+      "id": "node/11069276806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11112188258",
+        "addr:housenumber": "263",
+        "addr:street": "Hoxton Street",
+        "amenity": "veterinary",
+        "check_date": "2023-07-21",
+        "name": "The Hoxton Vet",
+        "phone": "+44 20 3582 6010",
+        "website": "https://www.thehoxtonvet.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0805715,
+          51.534133
+        ]
+      },
+      "id": "node/11112188258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11135027295",
+        "addr:street": "Hertford Road",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "check_date": "2023-08-21",
+        "name": "Medivet",
+        "opening_hours": "24/7",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.medivet.co.uk/24-hour-emergency-vet/24-hour-enfield/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0384674,
+          51.6733365
+        ]
+      },
+      "id": "node/11135027295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11226718805",
+        "amenity": "veterinary",
+        "brand": "Vets4Pets",
+        "brand:wikidata": "Q16960196",
+        "name": "Vets4Pets",
+        "operator": "PetsatHome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1453587,
+          51.5304754
+        ]
+      },
+      "id": "node/11226718805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11230712108",
+        "addr:city": "Feltham",
+        "addr:housenumber": "222",
+        "addr:postcode": "TW13 5DL",
+        "addr:street": "Uxbridge Road",
+        "amenity": "veterinary",
+        "name": "Petwell House Vets - Feltham",
+        "phone": "+44 208 8937888",
+        "website": "https://petwellhousevets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39984,
+          51.4458311
+        ]
+      },
+      "id": "node/11230712108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11310740820",
+        "addr:city": "London",
+        "addr:housenumber": "548-550",
+        "addr:postcode": "W4 5RG",
+        "addr:street": "Chiswick High Road",
+        "amenity": "veterinary",
+        "name": "Wolfe Vets",
+        "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-16:00",
+        "website": "https://www.wolfevets.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2724159,
+          51.4928554
+        ]
+      },
+      "id": "node/11310740820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11378046738",
+        "addr:city": "London",
+        "addr:housenumber": "110-116",
+        "addr:postcode": "SW14 8DT",
+        "addr:street": "Upper Richmond Road West",
+        "amenity": "veterinary",
+        "level": "0",
+        "name": "Pet People",
+        "opening_hours": "Mo-Sa 07:00-18:00; Su 08:30-13:00",
+        "phone": "+44 20 3725 7630",
+        "website": "https://petpeople.vet/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2586203,
+          51.4652301
+        ]
+      },
+      "id": "node/11378046738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11398976476",
+        "addr:city": "Orpington",
+        "addr:housenumber": "121-123",
+        "addr:postcode": "BR5 1DG",
+        "addr:street": "Queensway",
+        "addr:suburb": "Petts Wood",
+        "name": "Pet Perfection",
+        "shop": "pet",
+        "survey:date": "2021-05-10",
+        "website": "https://www.petperfection.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0718058,
+          51.389594
+        ]
+      },
+      "id": "node/11398976476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11418384950",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3437681,
+          51.5482055
+        ]
+      },
+      "id": "node/11418384950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11446456114",
+        "amenity": "veterinary",
+        "check_date": "2025-10-30",
+        "name": "Goddard Vetinary Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3396213,
+          51.6049525
+        ]
+      },
+      "id": "node/11446456114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11572995642",
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:postcode": "SE10 9GA",
+        "addr:street": "Hawthorne Crescent",
+        "contact:instagram": "violapets",
+        "contact:wechat": "Violapets_store",
+        "contact:xiaohongshu": "https://www.xiaohongshu.com/user/profile/60bd3c32000000000100834d",
+        "email": "info@holapets.co.uk",
+        "name": "ViolaPets",
+        "shop": "pet",
+        "website": "https://www.violapets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.009472,
+          51.4856508
+        ]
+      },
+      "id": "node/11572995642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11618430821",
+        "addr:city": "London",
+        "addr:housename": "The High Parade",
+        "addr:street": "Streatham High Road",
+        "addr:unit": "23",
+        "amenity": "veterinary",
+        "name": "South London Emergency Veterinary Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1279119,
+          51.4339365
+        ]
+      },
+      "id": "node/11618430821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11686420218",
+        "name": "Waggles",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0352574,
+          51.3923735
+        ]
+      },
+      "id": "node/11686420218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11777761258",
+        "leisure": "dog_park",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0406525,
+          51.4135106
+        ]
+      },
+      "id": "node/11777761258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11888878570",
+        "addr:housenumber": "228",
+        "addr:street": "Belsize Road",
+        "amenity": "veterinary",
+        "check_date": "2024-07-10",
+        "name": "elizavet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1904994,
+          51.5386623
+        ]
+      },
+      "id": "node/11888878570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11947787037",
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:postcode": "NW7 1LY",
+        "addr:street": "Holders Hill Parade",
+        "amenity": "veterinary",
+        "name": "Holders Hill Veterinary Surgery",
+        "phone": "+44 20 8343 1750",
+        "website": "https://www.holdershillvetsurgery.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2088637,
+          51.6013751
+        ]
+      },
+      "id": "node/11947787037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11947939050",
+        "addr:city": "London",
+        "addr:housenumber": "9",
+        "addr:postcode": "NW7 1HS",
+        "addr:street": "Bittacy Hill",
+        "amenity": "veterinary",
+        "name": "Triage Vets",
+        "phone": "+44 20 8349 4711",
+        "website": "https://www.triagevets.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20805,
+          51.6058775
+        ]
+      },
+      "id": "node/11947939050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11953603902",
+        "amenity": "veterinary",
+        "check_date": "2025-06-13",
+        "check_date:opening_hours": "2025-06-13",
+        "name": "Hello Vet",
+        "opening_hours": "Mo-Fr 08:30-20:00; Sa,Su 09:00-12:30",
+        "phone": "+44 20 4587 1351",
+        "website": "https://www.hellovet.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0585739,
+          51.537795
+        ]
+      },
+      "id": "node/11953603902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12144256510",
+        "addr:city": "London",
+        "addr:housenumber": "7",
+        "addr:parentstreet": "Sidmouth Road",
+        "addr:street": "Sidmouth Parade",
+        "amenity": "veterinary",
+        "check_date": "2024-11-18",
+        "contact:phone": "+44 20 8459 3010",
+        "contact:website": "http://www.allpetsdavidking.co.uk",
+        "level": "0",
+        "name": "All Pets Veterinary Clinic",
+        "opening_hours": "Mo-Fr 09:00-11:00,13:00-14:00,16:00-19:00; Sa 12:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2250836,
+          51.5427302
+        ]
+      },
+      "id": "node/12144256510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12219546111",
+        "amenity": "veterinary",
+        "name": "Vets For Pets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0386734,
+          51.3916111
+        ]
+      },
+      "id": "node/12219546111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12219546112",
+        "name": "Pets At Home",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0389913,
+          51.3916128
+        ]
+      },
+      "id": "node/12219546112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12323760232",
+        "amenity": "veterinary",
+        "check_date": "2025-10-01",
+        "name": "Peckham Veterinary Surgery",
+        "website": "https://peckhamvets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.070508,
+          51.4722788
+        ]
+      },
+      "id": "node/12323760232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12367492947",
+        "addr:city": "London",
+        "addr:floor": "G",
+        "addr:housenumber": "346",
+        "addr:postcode": "W3 8NX",
+        "addr:street": "Acton Lane",
+        "amenity": "veterinary",
+        "check_date": "2025-10-14",
+        "check_date:opening_hours": "2025-10-14",
+        "email": "acton@medivet.co.uk",
+        "level": "0",
+        "name": "Acton Lane Veterinary Surgery",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-12:30",
+        "phone": "+44 20 8992 6000",
+        "website": "https://www.medivetgroup.com/vet-practices/acton/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2673735,
+          51.5046884
+        ]
+      },
+      "id": "node/12367492947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12430661113",
+        "amenity": "veterinary",
+        "check_date": "2024-12-15",
+        "name": "Village Vet",
+        "opening_hours": "Mo,We,Fr 09:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1549134,
+          51.5422398
+        ]
+      },
+      "id": "node/12430661113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12532648852",
+        "addr:city": "London",
+        "addr:housenumber": "88",
+        "addr:postcode": "N13 4PP",
+        "addr:street": "Alderman's Hill",
+        "amenity": "veterinary",
+        "name": "Vet and Pet Shop",
+        "phone": "+44 20 8886 1851",
+        "website": "https://www.villagevet.co.uk/practice/palmers-green/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1140386,
+          51.6194723
+        ]
+      },
+      "id": "node/12532648852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12631745541",
+        "amenity": "veterinary",
+        "brand": "Medivet",
+        "brand:wikidata": "Q120372623",
+        "check_date": "2021-04-05",
+        "name": "Medivet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4475091,
+          51.5655135
+        ]
+      },
+      "id": "node/12631745541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12651935357",
+        "description": "Large area surrounded with fence and gates, open to anyone, used by locals for dog walking.",
+        "leisure": "dog_park",
+        "note": "not officially signed, but used enough to warrant tagging (see Note 3736632)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1077223,
+          51.4962521
+        ]
+      },
+      "id": "node/12651935357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12763367506",
+        "name": "London Pet Supplies",
+        "shop": "pet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0599336,
+          51.4985642
+        ]
+      },
+      "id": "node/12763367506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12802855955",
+        "addr:city": "London",
+        "addr:housename": "Arch 3",
+        "addr:street": "The Viaduct",
+        "amenity": "veterinary",
+        "name": "ArcVet Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1419302,
+          51.5885263
+        ]
+      },
+      "id": "node/12802855955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12809837725",
+        "addr:city": "London",
+        "addr:housenumber": "55",
+        "addr:street": "Harbord Square",
+        "amenity": "veterinary",
+        "check_date": "2025-05-04",
+        "name": "Wood Wharf Vets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0097852,
+          51.502467
+        ]
+      },
+      "id": "node/12809837725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12847144802",
+        "addr:city": "London",
+        "addr:housenumber": "655",
+        "addr:street": "High Road Leyton",
+        "amenity": "veterinary",
+        "name": "Midland Veterinary Surgery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0084786,
+          51.5704359
+        ]
+      },
+      "id": "node/12847144802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12944457049",
+        "amenity": "veterinary",
+        "check_date": "2025-06-22",
+        "name": "Petals Vets",
+        "website": "https://www.petals.vet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0348508,
+          51.4925504
+        ]
+      },
+      "id": "node/12944457049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12961244887",
+        "addr:housenumber": "100",
+        "addr:street": "Blackheath Road",
+        "addr:unit": "B",
+        "brand": "Pets at Home",
+        "brand:wikidata": "Q7179258",
+        "check_date": "2025-07-13",
+        "name": "Pets at Home",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su,PH 11:00-17:00",
+        "shop": "pet",
+        "website": "https://community.petsathome.com/store/blackheath/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0169306,
+          51.4723303
+        ]
+      },
+      "id": "node/12961244887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12969671201",
+        "addr:housenumber": "238",
+        "addr:postcode": "CR2 6DB",
+        "addr:street": "Pampisford Road",
+        "amenity": "veterinary",
+        "contact:facebook": "Anne-Nelson-Vets-197397580327013",
+        "contact:instagram": "annenelsonvets",
+        "contact:twitter": "AnneNelsonVets",
+        "email": "info@nelsonvets.co.uk",
+        "name": "Anne Nelson Vets",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-12:00; Su 09:30-12:00",
+        "phone": "+44 20 8686 6070",
+        "website": "https://nelsonvets.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1055915,
+          51.3545263
+        ]
+      },
+      "id": "node/12969671201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12980744371",
+        "addr:city": "Enfield",
+        "addr:country": "GB",
+        "addr:housename": "Holly Hill Farm",
+        "addr:postcode": "EN2 8AN",
+        "addr:street": "The Ridgeway",
+        "leisure": "dog_park",
+        "name": "Halo Dogs",
+        "operator": "Halo Dogs",
+        "operator:type": "private_for_profit",
+        "website": "https://www.halodogs.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.135455,
+          51.6833486
+        ]
+      },
+      "id": "node/12980744371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13042800221",
+        "amenity": "veterinary",
+        "check_date": "2025-08-02",
+        "name": "Creature Comforts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2130701,
+          51.4644538
+        ]
+      },
+      "id": "node/13042800221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13056118129",
+        "addr:city": "London",
+        "addr:postcode": "SW12 0PS",
+        "addr:street": "Zennor Road Industrial Estate",
+        "addr:unit": "26",
+        "email": "shop@aquaticdesign.co.uk",
+        "name": "Aquatic Design Centre",
+        "shop": "pet",
+        "website": "https://www.aquaticdesign.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1453397,
+          51.445613
+        ]
+      },
+      "id": "node/13056118129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13078557128",
+        "addr:city": "Feltham",
+        "addr:housename": "2 Shelson Parade",
+        "addr:postcode": "TW13 4QZ",
+        "addr:street": "Ashford Road",
+        "amenity": "veterinary",
+        "name": "Willett House Feltham",
+        "operator": "Willett House",
+        "website": "https://www.willetthouse.co.uk/surgery/feltham/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4246917,
+          51.4372677
+        ]
+      },
+      "id": "node/13078557128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13191114096",
+        "addr:city": "London",
+        "addr:housenumber": "47",
+        "addr:postcode": "E3 4TN",
+        "addr:street": "Burdett Road",
+        "amenity": "veterinary",
+        "brand": "Goddard Veterinary Group",
+        "brand:wikidata": "Q120587989",
+        "check_date": "2023-08-20",
+        "name": "Goddard Veterinary Group",
+        "phone": "+44 20 8981 5535",
+        "website": "https://www.goddardvetgroup.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0338584,
+          51.5226371
+        ]
+      },
+      "id": "node/13191114096"
+    }
+  ]
+}
