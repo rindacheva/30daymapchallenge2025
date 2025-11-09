@@ -85,6 +85,14 @@ A map of London with a score of how dog friendly each borough is. The scores are
 
 ---
 
+## Day 09 — Analog 🎨
+
+With Wicked 2 coming out in just a few weeks, I just had to draw a map of Oz for today's challenge 💚🩷
+
+![Day 9 Map](maps/day9/day9.png)
+
+---
+
 ## Stack
 
 - QGIS
