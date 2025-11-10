@@ -93,6 +93,14 @@ With Wicked 2 coming out in just a few weeks, I just had to draw a map of Oz for
 
 ---
 
+## Day 10 — Air 🍃
+
+Created an animated map of wind speed and temperature of [Hurricane Melissa](https://en.wikipedia.org/wiki/Hurricane_Melissa) from October 28th, using ERA5 hourly data and QGIS.
+
+![Day 10 Map](maps/day10/melissa.gif)
+
+---
+
 ## Stack
 
 - QGIS
