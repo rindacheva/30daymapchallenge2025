@@ -101,6 +101,15 @@ Created an animated map of wind speed and temperature of [Hurricane Melissa](htt
 
 ---
 
+## Day 11 — Minimalist 🫧
+
+Created a map of Lloseta, Mallorca using OSM data. Did base map on QGIS and labels on Photoshop.
+
+![Day 11 Map](maps/day11/day11.png)
+
+---
+
+
 ## Stack
 
 - QGIS
