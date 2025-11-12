@@ -109,6 +109,14 @@ Created a map of Lloseta, Mallorca using OSM data. Did base map on QGIS and labe
 
 ---
 
+## Day 12 — Map from 2125 ⌛
+
+Map of change in population as projected by the UN ([UN Population Data](https://population.un.org/dataportal/)). Made using Kepler.gl.
+Technically for the year 2100...
+
+![Day 12 Map](maps/day12/day12.png)
+
+---
 
 ## Stack
 
@@ -132,3 +140,4 @@ Created a map of Lloseta, Mallorca using OSM data. Did base map on QGIS and labe
 - [Dog population per postcode district](https://www.data.gov.uk/dataset/)
 - [London Boroughs GPKG](https://data.london.gov.uk/dataset/london-boroughs-e55pw/)
 - [ERA 5 Hourly Data](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
+- [UN Population Data](https://population.un.org/dataportal/)
