@@ -118,9 +118,18 @@ Technically for the year 2100...
 
 ---
 
+## Day 13 — 10 Minute Map ⏩
+
+Quick map of a hike I did in Menorca. Plotted on QGIS, using ESRI Satellite data as the background + some OSM labels
+
+![Day 13 Map](maps/day13/day13.png)
+
+---
+
 ## Stack
 
 - QGIS
+  - QuickOSM plugin
 - Mapbox GL JS
 - Mapbox Tilesets  
 - Python (Pandas, GeoPandas, Numpy, Sklearn)
@@ -141,3 +150,5 @@ Technically for the year 2100...
 - [London Boroughs GPKG](https://data.london.gov.uk/dataset/london-boroughs-e55pw/)
 - [ERA 5 Hourly Data](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=download)
 - [UN Population Data](https://population.un.org/dataportal/)
+- ESRI Satellite Data
+- Strava
