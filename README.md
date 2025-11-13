@@ -13,9 +13,22 @@ This repo holds my daily solutions to each of the challenges :)
 
 ## Day 02 — Lines 📏
 
+A map of railways in Japan, using [OSM data](https://data.humdata.org/dataset/hotosm_jpn_railways).
+
+![Day 2 Map - Japan](maps/day2/day2_japan.png)
+
+![Day 2 Map - North Japan](maps/day2/day2_japan_n.png)
+
+
 ---
 
 ## Day 03 — Polygons 🛑
+
+Map of Manhattan's building heights! Made using [NYC Open Data](https://data.cityofnewyork.us/City-Government/BUILDING/5zhs-2jue/about_data) on Kepler.gl.
+
+![Day 3 Map - Manhattan](maps/day3/day3.png)
+![Day 3 Map - The Village](maps/day3/day3_village.png)
+![Day 3 Map - Central Park](maps/day3/day3_cp.png)
 
 ---
 
@@ -28,7 +41,7 @@ I used my Strava data from a multiday hike I did in New Zealand - the Kepler Tra
 
 I touched it up on Photoshop and added icons and labels
 
-![Day 5 Map](maps/day4/day4_final.png)
+![Day 4 Map](maps/day4/day4_final.png)
 
 
 ---
@@ -142,6 +155,8 @@ Quick map of a hike I did in Menorca. Plotted on QGIS, using ESRI Satellite data
 ## Data
 
 - OSM
+- [Japan Railways (OSM)](https://data.humdata.org/dataset/hotosm_jpn_railways)
+- [NYC Open Data](https://data.cityofnewyork.us/City-Government/BUILDING/5zhs-2jue/about_data)
 - [RESOLVE Ecoregions Dataset (2017) dataset](https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017)
 - [LINZ 8m DEM data (2012)](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
 - [GEBCO Ocean Bathymetry Data](https://www.gebco.net/data-products/gridded-bathymetry-data)
