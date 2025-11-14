@@ -1,0 +1,88 @@
+date,city,country,venue,lat,lon
+16/07/2025,Paradise,United States,T-Mobile Arena,36.0724299,-115.1474759
+18/07/2025,Paradise,United States,T-Mobile Arena,36.0724299,-115.1474759
+19/07/2025,Paradise,United States,T-Mobile Arena,36.0724299,-115.1474759
+22/07/2025,San Francisco,United States,Chase Center,37.7792588,-122.4193286
+24/07/2025,San Francisco,United States,Chase Center,37.7792588,-122.4193286
+26/07/2025,San Francisco,United States,Chase Center,37.7792588,-122.4193286
+28/07/2025,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+29/07/2025,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+01/08/2025,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+02/08/2025,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+06/08/2025,Seattle,United States,Climate Pledge Arena,47.6038321,-122.330062
+07/08/2025,Seattle,United States,Climate Pledge Arena,47.6038321,-122.330062
+09/08/2025,Seattle,United States,Climate Pledge Arena,47.6038321,-122.330062
+22/08/2025,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+23/08/2025,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+26/08/2025,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+27/08/2025,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+31/08/2025,Miami,United States,Kaseya Center,25.7741566,-80.1935973
+01/09/2025,Miami,United States,Kaseya Center,25.7741566,-80.1935973
+06/09/2025,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+07/09/2025,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+10/09/2025,Toronto,Canada,Scotiabank Arena,43.6534817,-79.3839347
+11/09/2025,Toronto,Canada,Scotiabank Arena,43.6534817,-79.3839347
+13/09/2025,Toronto,Canada,Scotiabank Arena,43.6534817,-79.3839347
+15/09/2025,Chicago,United States,United Center,41.8755616,-87.6244212
+17/09/2025,Chicago,United States,United Center,41.8755616,-87.6244212
+18/09/2025,Chicago,United States,United Center,41.8755616,-87.6244212
+29/09/2025,London,England,The O2Arena,51.4893335,-0.1440551
+30/09/2025,London,England,The O2Arena,51.4893335,-0.1440551
+02/10/2025,London,England,The O2Arena,51.4893335,-0.1440551
+04/10/2025,London,England,The O2Arena,51.4893335,-0.1440551
+07/10/2025,Manchester,England,Co-op Live,53.4794892,-2.2451148
+08/10/2025,Manchester,England,Co-op Live,53.4794892,-2.2451148
+12/10/2025,Stockholm,Sweden,Avicii Arena,59.3251172,18.0710935
+13/10/2025,Stockholm,Sweden,Avicii Arena,59.3251172,18.0710935
+15/10/2025,Stockholm,Sweden,Avicii Arena,59.3251172,18.0710935
+19/10/2025,Assago,Italy,Unipol Forum,45.4052073,9.1313346
+20/10/2025,Assago,Italy,Unipol Forum,45.4052073,9.1313346
+28/10/2025,Barcelona,Spain,Palau Sant Jordi,41.3825802,2.177073
+29/10/2025,Barcelona,Spain,Palau Sant Jordi,41.3825802,2.177073
+31/10/2025,Barcelona,Spain,Palau Sant Jordi,41.3825802,2.177073
+04/11/2025,Berlin,Germany,Uber Arena,52.5173885,13.3951309
+05/11/2025,Berlin,Germany,Uber Arena,52.5173885,13.3951309
+09/11/2025,Amsterdam,Netherlands,Ziggo Dome,52.3730796,4.8924534
+11/11/2025,Antwerp,Belgium,AFAS Dome,51.2211097,4.3997081
+13/11/2025,Décines-Charpieu,France,LDLC Arena,45.773606,4.9633314
+14/11/2025,Décines-Charpieu,France,LDLC Arena,45.773606,4.9633314
+17/11/2025,Paris,France,Accor Arena,48.8588897,2.320041
+18/11/2025,Paris,France,Accor Arena,48.8588897,2.320041
+20/11/2025,Paris,France,Accor Arena,48.8588897,2.320041
+22/11/2025,Paris,France,Accor Arena,48.8588897,2.320041
+05/12/2025,Melbourne,Australia,Marvel Stadium,-37.8142454,144.9631732
+06/12/2025,Melbourne,Australia,Marvel Stadium,-37.8142454,144.9631732
+09/12/2025,Brisbane,Australia,Suncorp Stadium,-27.4689623,153.0235009
+12/12/2025,Sydney,Australia,Accor Stadium,-33.8698439,151.2082848
+13/12/2025,Sydney,Australia,Accor Stadium,-33.8698439,151.2082848
+21/01/2026,Osaka,Japan,Kyocera Dome,34.6937569,135.5014539
+22/01/2026,Osaka,Japan,Kyocera Dome,34.6937569,135.5014539
+25/01/2026,Tokyo,Japan,Tokyo Dome,35.6768601,139.7638947
+26/01/2026,Tokyo,Japan,Tokyo Dome,35.6768601,139.7638947
+29/01/2026,Tokyo,Japan,Tokyo Dome,35.6768601,139.7638947
+30/01/2026,Tokyo,Japan,Tokyo Dome,35.6768601,139.7638947
+14/02/2026,Glendale,United States,Desert Diamond Arena,34.1469416,-118.2478471
+15/02/2026,Glendale,United States,Desert Diamond Arena,34.1469416,-118.2478471
+18/02/2026,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+19/02/2026,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+22/02/2026,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+23/02/2026,Inglewood,United States,Kia Forum,33.9562003,-118.353132
+28/02/2026,Fort Worth,United States,Dickies Arena,32.753177,-97.3327459
+01/03/2026,Fort Worth,United States,Dickies Arena,32.753177,-97.3327459
+04/03/2026,Atlanta,United States,State Farm Arena,33.7544657,-84.3898151
+05/03/2026,Atlanta,United States,State Farm Arena,33.7544657,-84.3898151
+08/03/2026,Austin,United States,Moody Center,30.2711286,-97.7436995
+09/03/2026,Austin,United States,Moody Center,30.2711286,-97.7436995
+13/03/2026,Miami,United States,Kaseya Center,25.7741566,-80.1935973
+19/03/2026,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+20/03/2026,New York City,United States,Madison Square Garden,40.7127281,-74.0060152
+23/03/2026,"Washington, D.C.",United States,Capital One Arena,38.8950368,-77.0365427
+24/03/2026,"Washington, D.C.",United States,Capital One Arena,38.8950368,-77.0365427
+29/03/2026,Boston,United States,TD Garden,42.3554334,-71.060511
+30/03/2026,Boston,United States,TD Garden,42.3554334,-71.060511
+02/04/2026,Montreal,Canada,Centre Bell,45.5031824,-73.5698065
+03/04/2026,Montreal,Canada,Centre Bell,45.5031824,-73.5698065
+06/04/2026,Montreal,Canada,Centre Bell,45.5031824,-73.5698065
+09/04/2026,Saint Paul,United States,Grand Casino Arena,44.9497487,-93.0931028
+10/04/2026,Saint Paul,United States,Grand Casino Arena,44.9497487,-93.0931028
+13/04/2026,New York City,United States,Madison Square Garden,40.7127281,-74.0060152

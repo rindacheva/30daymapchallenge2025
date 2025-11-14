@@ -139,6 +139,14 @@ Quick map of a hike I did in Menorca. Plotted on QGIS, using ESRI Satellite data
 
 ---
 
+## Day 14 — OSM 🗺️
+
+Map of historical and archaeological sites in Athens using OSM data, on Kepler.gl.
+
+![Day 14 Map](maps/day14/day14.png)
+
+---
+
 ## Stack
 
 - QGIS
