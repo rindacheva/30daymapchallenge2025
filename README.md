@@ -176,16 +176,31 @@ Note: the dataset included complete record of rock types in the area, but those 
 
 ---
 
+## Day 16 — Cells 🦠
+
+A monthly 3D globe map of chlorophyll concentrations using NASA’s Aqua MODIS Level-3 chlorophyll-a dataset for 2024 and 2025. 
+
+![Day 16 Map](maps/day16/day16_gif.gif)
+
+Chlorophyll-a concentrartion (mg/m3) shows how much phytoplankton biomass is in the surface of the ocean at a given time. Plants, algae and phytoplankton use it to absorb sunlight. It is calculated using satellite imagery which detects how green the ocean is and running an algorithm to determine the data (OCI algorithm).
+
+Phytoplankton is the microscopic plants of the ocean and it is responsible for 50% of all the oxygen on the planet. It is also the foundation of the marine food chain and a major driver of the climate cycle (and hence a climate indicator).
+
+Note a log transform was needed here as the distribution is logarithmic. Explore further details in [the marine chlorophyll notebook](notebooks/ocean_chlorophyll.ipynb)
+
+---
+
 ## Stack
 
 - QGIS
   - QuickOSM plugin
 - Mapbox GL JS
 - Mapbox Tilesets  
-- Python (Pandas, GeoPandas, Numpy, Sklearn)
+- Python (Pandas, GeoPandas, Numpy, Sklearn, Xarray)
 - HTML + CSS  
 - Kepler.gl
 - Photoshop (for touch ups)
+- Plotly
 
 ---
 
@@ -206,3 +221,4 @@ Note: the dataset included complete record of rock types in the area, but those 
 - Strava
 - [NZL GNS 250K Geology Data](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/3f6b15da-29a6-11ee-be56-0242ac120002)
 - [Copernicus 30m DEM data](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3)
+- [NASA AQUA Modis - Chlorophyll Concentration](https://oceandata.sci.gsfc.nasa.gov/l3/)
