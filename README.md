@@ -147,6 +147,35 @@ Map of historical and archaeological sites in Athens using OSM data, on Kepler.g
 
 ---
 
+## Day 15 — Fire 🔥
+
+Map of the geological rock types in the Tongariro National Park, NZ. Specifically, the volcanoes under Mt Ruapehu, Mt Ngauruhoe and Mt Tongariro. The region is located within the active Taupō Volcanic Zone, one of the most active volcanic systems on the planet.
+
+Mt Ngauruhoe, which you may recognize as Mt Doom in Lord of the Rings, has had over 60 eurptive episodes since 1839, while the latest eruption of the Tongariro system was the nearby Te Māri in 2012.
+
+Geological data from GNS Science, [NZL GNS 250K Geology Data](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/3f6b15da-29a6-11ee-be56-0242ac120002). DEM data from OpenTopography, COP30.
+
+![Day 15 Map](maps/day15/day15.png)
+
+Great geology visualizations for NZ found [here](https://data.gns.cri.nz/geology).
+
+### Volcanic Rock Types at Tongariro Volcanic Centre
+
+- Andesite: A medium-silica volcanic rock characteristic of stratovolcanoes. Most of Ngauruhoe’s lava flows, domes, and classic cone structure are built from andesite eruptions over the past few thousand years.
+- Basalt: A low-silica, fluid magma that produces long, fast-moving lava flows. These tend to represent some of the older, more primitive magma sources feeding the Tongariro system.
+- Basaltic Andesite: A transitional lava composition between basalt and andesite. Common in the Tongariro field, many of the most widespread and younger flows around Ngauruhoe are basaltic-andesitic in origin.
+- Breccia: A fragmented deposit composed of angular volcanic blocks enclosed in finer material. Breccias here typically form from explosive vent activity, cone collapse events, or violent interactions between magma and groundwater.
+- Ignimbrite: Deposits formed by high-temperature, fast-moving pyroclastic flows. These sheet-like units reflect some of the largest explosive eruptions in the wider Taupō Volcanic Zone, where ash, pumice, and volcanic gases raced across the landscape.
+- Pumice: Highly vesicular volcanic glass produced during explosive eruptions. Pumice blankets in this region record some of the major eruptive episodes that reshaped the North Island.
+- Pyroclastic Breccia: Coarse, block-rich deposits formed from explosive eruptions with intense fragmentation. These layers represent the more violent eruptive phases within the Tongariro complex.
+- Rhyolite: A high-silica, viscous magma associated with dome growth and highly explosive eruptions. While less common around Ngauruhoe itself, rhyolitic deposits reflect the broader history of caldera-scale volcanism in the central Taupō Volcanic Zone.
+- Scoria: A vesicular, gas-rich volcanic material produced during fiery Strombolian-style eruptions. Scoria cones and layers around Tongariro mark repeated explosive activity throughout the Holocene.
+- Tephra: Air-fall deposits ranging from fine ash to lapilli and larger fragments. These layers record the fallout from historical and prehistoric eruptions, often preserved as widespread blankets downwind of eruptive vents.
+
+Note: the dataset included complete record of rock types in the area, but those have been filtered out here to focus on those relevant to volcanic events.
+
+---
+
 ## Stack
 
 - QGIS
@@ -175,3 +204,5 @@ Map of historical and archaeological sites in Athens using OSM data, on Kepler.g
 - [UN Population Data](https://population.un.org/dataportal/)
 - ESRI Satellite Data
 - Strava
+- [NZL GNS 250K Geology Data](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/3f6b15da-29a6-11ee-be56-0242ac120002)
+- [Copernicus 30m DEM data](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3)
