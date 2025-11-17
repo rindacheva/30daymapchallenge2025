@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Gaga Mayhem Tour Map – D3 (Zoom-Stable Red Edition)</title>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
+
+<style>
+  body {
+    margin: 0;
+    background: #050505;
+    font-family: system-ui, sans-serif;
+    color: #eee;
+  }
+
+  #header-logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #header-logo img {
+    height: 110px;  /* adjust to taste */
+    user-select: none;
+    pointer-events: none; /* so zoom/pan of map isn't blocked */
+  }
+
+  #ui {
+    max-width: 1400px;
+    margin: 16px auto 0;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #popup {
+    background: rgba(10, 10, 10, 0.88);
+    border: 1px solid #ff1c1c66;
+    padding: 10px 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba(255, 28, 28, 0.35);
+    min-width: 260px;
+    font-size: 13px;
+  }
+
+  .popup-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .popup-sub {
+    font-size: 12px;
+    opacity: 0.9;
+    line-height: 1.3;
+  }
+
+  .date-option {
+    padding: 3px 8px;
+    border-radius: 6px;
+    background: #1a0000;
+    border: 1px solid #ff1c1c66;
+    margin-right: 6px;
+    cursor: pointer;
+    font-size: 11px;
+  }
+
+  .date-option:hover {
+    background: #ff1c1c;
+    color: #000;
+  }
+
+  #controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #controls button {
+    background: #1a0000;
+    border: 1px solid #ff1c1c99;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(255, 28, 28, 0.35);
+    transition: background 0.2s, transform 0.1s, box-shadow 0.2s, opacity 0.2s;
+  }
+
+  #controls button:hover:enabled {
+    background: #ff1c1c;
+    transform: translateY(-1px);
+    box-shadow: 0 0 18px rgba(255, 28, 28, 0.7);
+  }
+
+  #controls button:disabled {
+    opacity: 0.35;
+    cursor: default;
+    box-shadow: none;
+  }
+
+  svg {
+    display: block;
+    margin: 8px auto 0;
+    background: #050505;
+    cursor: grab;
+  }
+  svg:active {
+    cursor: grabbing;
+  }
+
+  .city-point {
+    fill: #ff1c1c;
+    stroke: white;
+    stroke-width: 0.6px;
+    opacity: 0.95;
+    filter: drop-shadow(0 0 8px #ff1c1c);
+  }
+
+  .city-label {
+    fill: #ffffff;
+    font-size: 10px;
+    pointer-events: none;
+    text-shadow: 0 0 3px black;
+  }
+
+  .arc {
+    fill: none;
+    stroke: #ff1c1c;
+    stroke-width: 1.4px;
+    opacity: 0.15;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .land {
+    vector-effect: non-scaling-stroke;
+  }
+</style>
+</head>
+
+<div id="header-logo">
+  <img src="mayhem_logo.png" alt="Mayhem Logo">
+</div>
+
+<body>
+<div id="ui">
+  <div id="popup"></div>
+  <div id="controls">
+    <button id="prev">◀ Back</button>
+    <button id="next">Next ▶</button>
+  </div>
+</div>
+
+<svg id="map" width="1400" height="750"></svg>
+
+<script>
+// =======================
+//  BASIC SETUP
+// =======================
+const svg = d3.select("#map");
+const width  = +svg.attr("width");
+const height = +svg.attr("height");
+
+const projection = d3.geoNaturalEarth1()
+  .scale(250)
+  .translate([width / 2, height / 2]);
+
+// base map layer (gets zoom transform)
+const baseLayer = svg.append("g").attr("class", "base-layer");
+
+// UI layer for points/labels/arcs (stays in screen space; we reproject)
+const uiLayer   = svg.append("g").attr("class", "ui-layer");
+
+const popup   = d3.select("#popup");
+const prevBtn = d3.select("#prev");
+const nextBtn = d3.select("#next");
+
+let groupedCities = [];
+let arcsGeo = [];               // great-circle arcs between city pairs
+let trailPaths = {};            // legIndex -> path element (breadcrumb)
+let labels, cityPoints;
+let activeArc, trailGroup;
+let movingDot, aura;
+
+let currentIndex = 0;
+let isAnimating  = false;
+let currentZoom  = d3.zoomIdentity;
+let currentDotLonLat = null;
+
+// =======================
+//  HELPERS
+// =======================
+
+// zoom handler: only baseLayer gets transform,
+// UI is reprojected via updateUIPositions()
+const zoom = d3.zoom()
+  .scaleExtent([0.7, 8])
+  .on("zoom", (event) => {
+    currentZoom = event.transform;
+    baseLayer.attr("transform", currentZoom);
+    updateUIPositions();
+  });
+
+svg.call(zoom);
+
+// project lon/lat -> screen, respecting current zoom transform
+function projectLonLat(lon, lat) {
+  const [x, y] = projection([lon, lat]);
+  const t = currentZoom;
+  return [t.applyX(x), t.applyY(y)];
+}
+
+// build path string from lon/lat coordinates
+function pathFromCoords(coords) {
+  if (!coords || !coords.length) return "";
+  let d = "";
+  coords.forEach((c, i) => {
+    const [x, y] = projectLonLat(c[0], c[1]);
+    d += (i === 0 ? "M" : "L") + x + "," + y;
+  });
+  return d;
+}
+
+// great-circle arc points
+function arcPoints(a, b, num = 60) {
+  const interp = d3.geoInterpolate(a, b);
+  return d3.range(num).map(i => interp(i / (num - 1)));
+}
+
+// popup with all dates/venues in city
+function showPopup(i) {
+  const g = groupedCities[i];
+  const lines = g.shows
+    .map(s => `• ${s.date} — ${s.venue}`)
+    .join("<br>");
+
+  popup
+    .transition().duration(150)
+    .style("opacity", 0)
+    .on("end", () => {
+      popup.html(`
+        <div class="popup-title">${g.city}, ${g.country}</div>
+        <div class="popup-sub">
+          ${g.shows.map((s, idx) => `
+            <span class="date-option" data-city="${i}" data-date="${idx}">
+              ${s.date}
+            </span>
+          `).join("")}
+        </div>
+      `);
+      popup.selectAll(".date-option")
+        .on("click", (event) => {
+          const cityIndex = +event.target.dataset.city;
+          const dateIndex = +event.target.dataset.date;
+
+          const selectedShow = groupedCities[cityIndex].shows[dateIndex];
+          console.log("Chosen date:", selectedShow);
+
+          // OPTIONAL — e.g., highlight the selected date:
+          popup.selectAll(".date-option").style("background", "#1a0000");
+          d3.select(event.target).style("background", "#ff1c1c");
+        });
+      popup.transition().duration(200).style("opacity", 1);
+    });
+}
+
+// enable/disable buttons
+function updateButtons() {
+  prevBtn.attr("disabled", currentIndex === 0 ? true : null);
+  nextBtn.attr("disabled", currentIndex === groupedCities.length - 1 ? true : null);
+}
+
+// update city points, labels, trails, dot when zoom changes
+function updateUIPositions() {
+  if (!groupedCities.length) return;
+  const k = currentZoom.k;
+  const scaleFactor = Math.pow(k, 0.15);
+  const rawR = 7 / scaleFactor;
+  const r = Math.max(4, Math.min(rawR, 10));
+
+  cityPoints
+    .attr("cx", d => projectLonLat(d.lon, d.lat)[0])
+    .attr("cy", d => projectLonLat(d.lon, d.lat)[1])
+    .attr("r", r);
+
+  labels
+    .attr("x", d => projectLonLat(d.lon, d.lat)[0] + 6)
+    .attr("y", d => projectLonLat(d.lon, d.lat)[1] - 6)
+    .style("font-size", `12px`);
+
+  trailGroup.selectAll("path.arc")
+    .attr("d", d => pathFromCoords(d.coords));
+
+  if (currentDotLonLat) {
+    const [x, y] = projectLonLat(currentDotLonLat[0], currentDotLonLat[1]);
+    movingDot.attr("transform", `translate(${x},${y})`);
+    aura.attr("cx", x).attr("cy", y);
+  }
+}
+
+// animate along a leg (forward/back)
+function goTo(targetIndex) {
+  if (isAnimating) return;
+  if (targetIndex < 0 || targetIndex >= groupedCities.length) return;
+  if (targetIndex === currentIndex) return;
+
+  const forward  = targetIndex > currentIndex;
+  const legIndex = forward ? currentIndex : targetIndex;
+  if (legIndex < 0 || legIndex >= groupedCities.length - 1) return;
+
+  const arcGeo = arcsGeo[legIndex];
+  isAnimating = true;
+  prevBtn.attr("disabled", true);
+  nextBtn.attr("disabled", true);
+
+  const fromCity = groupedCities[arcGeo.from];
+  const toCity   = groupedCities[arcGeo.to];
+
+  const interp = d3.geoInterpolate(
+    [fromCity.lon, fromCity.lat],
+    [toCity.lon,   toCity.lat]
+  );
+
+  const dur = 1500;
+
+  if (forward) {
+    // draw active arc incrementally
+    activeArc
+      .datum(arcGeo)
+      .attr("opacity", 1);
+
+    activeArc
+      .transition()
+      .duration(dur)
+      .ease(d3.easeCubicInOut)
+      .attrTween("d", function(d) {
+        return function(t) {
+          const n = Math.max(2, Math.round(1 + t * (d.coords.length - 1)));
+          const subset = d.coords.slice(0, n);
+          return pathFromCoords(subset);
+        };
+      })
+      .on("end", () => {
+        // leave breadcrumb trail if not already present
+        if (!trailPaths[legIndex]) {
+          const trail = trailGroup.append("path")
+            .datum(arcGeo)
+            .attr("class", "arc")
+            .attr("d", d => pathFromCoords(d.coords))
+            .attr("opacity", 0.15);
+          trailPaths[legIndex] = trail;
+        }
+        activeArc.attr("opacity", 0);
+      });
+  }
+
+  // move dot (forward or backward) along great-circle
+  movingDot
+    .interrupt()
+    .transition()
+      .duration(dur)
+      .ease(d3.easeCubicInOut)
+      .attrTween("transform", function() {
+        return function(t) {
+          const u = forward ? t : (1 - t);
+          const lonlat = interp(u);
+          currentDotLonLat = lonlat;
+          const [x, y] = projectLonLat(lonlat[0], lonlat[1]);
+          aura.attr("cx", x).attr("cy", y);
+          return `translate(${x},${y})`;
+        };
+      })
+      .on("end", () => {
+        const prev = currentIndex;
+        const next = targetIndex;
+
+        labels
+          .filter((d, i) => i === prev)
+          .transition().duration(250)
+          .attr("opacity", 0);
+
+        labels
+          .filter((d, i) => i === next)
+          .transition().delay(100).duration(400)
+          .attr("opacity", 1);
+
+        currentIndex = targetIndex;
+        showPopup(currentIndex);
+        updateButtons();
+        isAnimating = false;
+      });
+}
+
+// =======================
+//  LOAD DATA + DRAW
+// =======================
+Promise.all([
+  d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
+  d3.csv("mayhem_dates_geocoded.csv")
+]).then(([world, tour]) => {
+  const parseDate = d3.timeParse("%d/%m/%Y");
+
+  tour.forEach(d => {
+    d.lat = +d.lat;
+    d.lon = +d.lon;
+    d._date = parseDate(d.date);
+  });
+
+  // group by city+country
+  const grouped = d3.group(tour, d => d.city + "|" + d.country);
+  groupedCities = Array.from(grouped, ([key, shows]) => {
+    shows.sort((a, b) => a._date - b._date);
+    const first = shows[0];
+    return {
+      city: first.city,
+      country: first.country,
+      lat: +first.lat,
+      lon: +first.lon,
+      shows: shows,
+      firstDate: shows[0]._date
+    };
+  }).sort((a, b) => a.firstDate - b.firstDate);
+
+  // precompute arcs between consecutive cities
+  arcsGeo = [];
+  for (let i = 0; i < groupedCities.length - 1; i++) {
+    const a = groupedCities[i];
+    const b = groupedCities[i + 1];
+    const coords = arcPoints([a.lon, a.lat], [b.lon, b.lat], 60);
+    arcsGeo.push({ from: i, to: i + 1, coords });
+  }
+
+  // draw world
+  const countries = topojson.feature(world, world.objects.countries);
+  baseLayer.append("g")
+    .selectAll("path")
+    .data(countries.features)
+    .enter().append("path")
+      .attr("class", "land")
+      .attr("d", d3.geoPath(projection))
+      .attr("fill", "#111")
+      .attr("stroke", "#444")
+      .attr("stroke-width", 0.4);
+
+  // UI groups
+  trailGroup = uiLayer.append("g");
+
+  // points
+  cityPoints = uiLayer.append("g")
+    .selectAll("circle.city-point")
+    .data(groupedCities)
+    .enter().append("circle")
+      .attr("class", "city-point")
+      .on("mouseenter", handleHoverIn)
+      .on("mouseleave", handleHoverOut)
+          .on("click", (event, d) => {
+       const index = groupedCities.indexOf(d);
+       goTo(index); 
+    });
+
+
+  // labels
+  labels = uiLayer.append("g")
+    .selectAll("text.city-label")
+    .data(groupedCities)
+    .enter().append("text")
+      .attr("class", "city-label")
+      .attr("opacity", 0)
+      .text(d => d.city);
+
+  // active arc (only visible during animations)
+  activeArc = uiLayer.append("path")
+    .attr("class", "arc")
+    .attr("opacity", 0);
+
+  // moving dot + aura
+  movingDot = uiLayer.append("circle")
+    .attr("r", 7)
+    .attr("fill", "#ff1c1c")
+    .style("filter", "drop-shadow(0 0 10px #ff1c1c)")
+    .attr("opacity", 1);
+
+  aura = uiLayer.append("circle")
+    .attr("r", 8)
+    .attr("fill", "none")
+    .attr("stroke", "#ff1c1c")
+    .attr("stroke-width", 1)
+    .attr("opacity", 0.7);
+
+  // initial positions
+  const first = groupedCities[0];
+  currentDotLonLat = [first.lon, first.lat];
+  updateUIPositions(); // sets points, labels, dot, aura
+
+  const hoverTooltip = uiLayer.append("text")
+    .attr("class", "hover-tooltip")
+    .attr("fill", "#fff")
+    .attr("font-size", "11px")
+    .attr("text-anchor", "middle")
+    .attr("opacity", 0);
+
+  // aura pulse
+  (function pulse() {
+    aura
+      .attr("r", 8)
+      .attr("opacity", 0.7)
+      .transition().duration(700)
+      .attr("r", 18)
+      .attr("opacity", 0)
+      .on("end", pulse);
+  })();
+
+  function handleHoverIn(event, d) {
+  const [x, y] = projectLonLat(d.lon, d.lat);
+
+  hoverTooltip
+      .attr("x", x)
+      .attr("y", y - 12)
+      .text(`${d.city}, ${d.country}`)
+      .transition()
+        .duration(150)
+        .attr("opacity", 1);
+  }
+
+  function handleHoverOut() {
+    hoverTooltip
+      .transition()
+        .duration(150)
+        .attr("opacity", 0);
+  }
+
+  // initial label + popup
+  labels.filter((d, i) => i === 0).attr("opacity", 1);
+  showPopup(0);
+  updateButtons();
+
+  // controls
+  prevBtn.on("click", () => goTo(currentIndex - 1));
+  nextBtn.on("click", () => goTo(currentIndex + 1));
+});
+</script>
+
+</body>
+</html>

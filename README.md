@@ -190,6 +190,16 @@ Note a log transform was needed here as the distribution is logarithmic. Explore
 
 ---
 
+## Day 17 — New Tool 🤘
+
+Interactive map of Lady Gaga's Mayhem tour! Cities, dates, tour legs, arenas, etc. Created using D3.js.
+
+![Day 17 Map](maps/day17/day17_screenshot.png)
+
+See html: https://rindacheva.github.io/30daymapchallenge2025/maps/day17/index.html
+
+---
+
 ## Stack
 
 - QGIS
