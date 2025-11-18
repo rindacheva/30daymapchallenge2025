@@ -200,6 +200,14 @@ See interactive map here: https://rindacheva.github.io/30daymapchallenge2025/map
 
 ---
 
+## Day 18 — Out of this World 🧙‍♀️
+
+When I tell you... I have been waiting for this one. Map of King's Landing on Townscaper.
+
+![Day 18 Map](maps/day18/day18.png)
+
+---
+
 ## Stack
 
 - QGIS
