@@ -208,6 +208,17 @@ When I tell you... I have been waiting for this one. Map of King's Landing on To
 
 ---
 
+## Day 19 — Projections 📽️
+
+[Peirce quincuncial projection](https://en.wikipedia.org/wiki/Peirce_quincuncial_projection) map of the moon's surface using the [NASA CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/) and G.Projector 3 (a map projection explorer tool by NASA).
+
+![Day 19 Map](maps/day19/day19.png)
+![Earth Map](maps/day19/earth_peirce.png)
+
+The Peirce quincuncial projection was invented by Charles Sanders Peirce (also known as the founder of American pragmatism; he was of the era of career philosopher-scientist-logician-mathematicians). Peirce wanted a conformal world map that preserves angles and local shapes, fits into a square and can tile infinitely. Also it is pretty and symmetrical, yay!
+
+---
+
 ## Stack
 
 - QGIS
@@ -219,6 +230,8 @@ When I tell you... I have been waiting for this one. Map of King's Landing on To
 - Kepler.gl
 - Photoshop (for touch ups)
 - Plotly
+- D3.js
+- G.Projector 3 by NASA
 
 ---
 
@@ -240,3 +253,6 @@ When I tell you... I have been waiting for this one. Map of King's Landing on To
 - [NZL GNS 250K Geology Data](https://data.gns.cri.nz/metadata/srv/eng/catalog.search#/metadata/3f6b15da-29a6-11ee-be56-0242ac120002)
 - [Copernicus 30m DEM data](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3)
 - [NASA AQUA Modis - Chlorophyll Concentration](https://oceandata.sci.gsfc.nasa.gov/l3/)
+- [Mayhem Ball](https://en.wikipedia.org/wiki/The_Mayhem_Ball)
+- [NASA CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/)
+- [NASA Visible Earth, Blue Marble Next Generation](https://visibleearth.nasa.gov/images/74218/december-blue-marble-next-generation/74223l)
