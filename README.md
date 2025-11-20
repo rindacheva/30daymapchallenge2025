@@ -219,6 +219,14 @@ The Peirce quincuncial projection was invented by Charles Sanders Peirce (also k
 
 ---
 
+## Day 20 — Water 🌊
+
+Map of ocean currents on D3.js using the [Copernicus Marine Data](https://data.marine.copernicus.eu/). Quite some space for improvement but a fun exercise!
+
+![Day 20 Map](maps/day20/day20.png)
+
+---
+
 ## Stack
 
 - QGIS
@@ -256,3 +264,4 @@ The Peirce quincuncial projection was invented by Charles Sanders Peirce (also k
 - [Mayhem Ball](https://en.wikipedia.org/wiki/The_Mayhem_Ball)
 - [NASA CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/)
 - [NASA Visible Earth, Blue Marble Next Generation](https://visibleearth.nasa.gov/images/74218/december-blue-marble-next-generation/74223l)
+- [Marine Data - Copernicus](https://data.marine.copernicus.eu/)
