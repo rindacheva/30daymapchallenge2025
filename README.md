@@ -227,6 +227,15 @@ Map of ocean currents on D3.js using the [Copernicus Marine Data](https://data.m
 
 ---
 
+## Day 21 — Icons 🏝️
+
+Emoji Map of Urupukapuka Island. DEM plotted on QGIS and labels and emojis added on Photoshop.
+
+![Day 21 Map](maps/day21/day21.png)
+
+---
+
+
 ## Stack
 
 - QGIS
