@@ -221,7 +221,7 @@ The Peirce quincuncial projection was invented by Charles Sanders Peirce (also k
 
 ## Day 20 — Water 🌊
 
-Map of ocean currents on D3.js using the [Copernicus Marine Data](https://data.marine.copernicus.eu/). Quite some space for improvement but a fun exercise!
+Map of ocean currents on D3.js using the [Copernicus Marine Data](https://data.marine.copernicus.eu/). A really fun exercise, although there are a lot of features I would still like to add in terms of interactivity.
 
 ![Day 20 Map](maps/day20/day20.png)
 
@@ -235,6 +235,19 @@ Emoji Map of Urupukapuka Island. DEM plotted on QGIS and labels and emojis added
 
 ---
 
+## Day 22 — Data Challenge: Natural Earth 🌍
+
+I really loved this challenge since I have been dying to make an old style Atlas map! I used the [Natural Earth 1:10m Dataset](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) for populated places, admin level 0 countries and coastlines. I created the map on QGIS and styled on Photoshop.
+
+![Day 22 Map](maps/day22/day22.png)
+
+---
+
+## Day 23 — Process 💻
+
+
+
+---
 
 ## Stack
 
@@ -274,3 +287,4 @@ Emoji Map of Urupukapuka Island. DEM plotted on QGIS and labels and emojis added
 - [NASA CGI Moon Kit](https://svs.gsfc.nasa.gov/4720/)
 - [NASA Visible Earth, Blue Marble Next Generation](https://visibleearth.nasa.gov/images/74218/december-blue-marble-next-generation/74223l)
 - [Marine Data - Copernicus](https://data.marine.copernicus.eu/)
+- [Natural Earth 1:10m](https://www.naturalearthdata.com/downloads/10m-physical-vectors/)
