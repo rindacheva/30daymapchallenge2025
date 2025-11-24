@@ -246,6 +246,13 @@ I really loved this challenge since I have been dying to make an old style Atlas
 ## Day 23 — Process 💻
 
 
+---
+
+## Day 24 — Places and their names ✈️
+
+Map of European cities and US towns/cities named after them, connected with arcs on Kepler.gl. This is just a small subset since there is over 600 such places in the US.
+
+![Day 24 Map](maps/day24/day24.png)
 
 ---
 
