@@ -256,6 +256,14 @@ Map of European cities and US towns/cities named after them, connected with arcs
 
 ---
 
+## Day 25 — Hexagons ⬡
+
+Hexbin map of Meteorite Landings by mass using the [Kaggle Meteorite Landings dataset](https://www.kaggle.com/datasets/nasa/meteorite-landings?resource=download) on Kepler.gl.
+
+![Day 25 Map](maps/day25/day25.png)
+
+---
+
 ## Stack
 
 - QGIS
@@ -295,3 +303,4 @@ Map of European cities and US towns/cities named after them, connected with arcs
 - [NASA Visible Earth, Blue Marble Next Generation](https://visibleearth.nasa.gov/images/74218/december-blue-marble-next-generation/74223l)
 - [Marine Data - Copernicus](https://data.marine.copernicus.eu/)
 - [Natural Earth 1:10m](https://www.naturalearthdata.com/downloads/10m-physical-vectors/)
+- [Kaggle Meteorite Landings dataset](https://www.kaggle.com/datasets/nasa/meteorite-landings?resource=download)
