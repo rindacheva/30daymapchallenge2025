@@ -264,6 +264,15 @@ Hexbin map of Meteorite Landings by mass using the [Kaggle Meteorite Landings da
 
 ---
 
+## Day 26 — Transport 🚕
+
+Map of taxi routes of a sample of 50 taxis in Beijing. Data from[Beijing Taxi Kaggle Dataset](https://www.kaggle.com/datasets/arashnic/tdriver/data) plotted as lines on Kepler.gl
+
+![Day 26 Map](maps/day26/day26.png)
+![Day 26 Map](maps/day26/day26.gif)
+
+---
+
 ## Stack
 
 - QGIS
@@ -304,3 +313,4 @@ Hexbin map of Meteorite Landings by mass using the [Kaggle Meteorite Landings da
 - [Marine Data - Copernicus](https://data.marine.copernicus.eu/)
 - [Natural Earth 1:10m](https://www.naturalearthdata.com/downloads/10m-physical-vectors/)
 - [Kaggle Meteorite Landings dataset](https://www.kaggle.com/datasets/nasa/meteorite-landings?resource=download)
+- [Beijing Taxi Kaggle Dataset](https://www.kaggle.com/datasets/arashnic/tdriver/data)
