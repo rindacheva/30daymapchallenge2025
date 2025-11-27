@@ -245,6 +245,19 @@ I really loved this challenge since I have been dying to make an old style Atlas
 
 ## Day 23 — Process 💻
 
+I have used a variety of processes across these maps as I have used many different data sources and tools. For this example I will use the [Marine Regions Data](https://www.marineregions.org/downloads.php) to plot the Exclusive Economic Zones (EEZ) of the world. 
+
+I went to the website above and downloaded the shapefiles needed (Maritime Boundaries (latest version)), then loaded them in QGIS.
+
+![Day 23 QGIS screenshot](maps/day23/day23_qgis.png)
+
+In QGIS, I checked out what the lines and polygons downloaded look like, and then I decide on how to style the map. I used the QuickMapServices plugin to add a Carto Dark Matter basemap, and decided to only keep the line boundaries.
+
+![Day 23 QGIS screenshot](maps/day23/day23_qgis2.png)
+
+I then export the map as png for a final result. This was quite a quick map, I would say many of the others took a lot more time, especially since data had to be cleaned (which I mostly did with Python). Still, one of the best things I have learned in this process is how to make quick maps on QGIS.
+
+![Day 27 Map](maps/day27/day27.png)
 
 ---
 
@@ -270,6 +283,14 @@ Map of taxi routes of a sample of 50 taxis in Beijing. Data from[Beijing Taxi Ka
 
 ![Day 26 Map](maps/day26/day26.png)
 ![Day 26 Map](maps/day26/day26.gif)
+
+---
+
+## Day 27 — Boundaries 🛥️
+
+Map of EEZ (Exclusive Economic Zones) using - [Marine Regions Data](https://www.marineregions.org/downloads.php) and plotted on QGIS. EEZ is the 200-nautical-mile zone off a country’s coastline where that country gets special rights over marine resources.
+
+![Day 27 Map](maps/day27/day27.png)
 
 ---
 
@@ -314,3 +335,4 @@ Map of taxi routes of a sample of 50 taxis in Beijing. Data from[Beijing Taxi Ka
 - [Natural Earth 1:10m](https://www.naturalearthdata.com/downloads/10m-physical-vectors/)
 - [Kaggle Meteorite Landings dataset](https://www.kaggle.com/datasets/nasa/meteorite-landings?resource=download)
 - [Beijing Taxi Kaggle Dataset](https://www.kaggle.com/datasets/arashnic/tdriver/data)
+- [Marine Regions Data](https://www.marineregions.org/downloads.php)
