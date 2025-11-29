@@ -294,6 +294,26 @@ Map of EEZ (Exclusive Economic Zones) using - [Marine Regions Data](https://www.
 
 ---
 
+## Day 28 — Black 🖤
+
+The map uses annual [VIIRS Nighttime Lights (VNL)](https://eogdata.mines.edu/products/vnl/) data from the Earth Observation Group, capturing global light emissions at night. Plotted on QGIS.
+
+
+![Day 28 Map](maps/day28/day28.png)
+
+---
+
+## Day 29 — Raster 🗺️
+
+Map of the Azores Islands using GEBCO data for bathymetry rasters and COP30 data for DEM rasters. Plotted on QGIS.
+
+![Day 29 Map](maps/day29/day29.png)
+![Day 29 Map](maps/day29/day29_zoom.png)
+
+
+---
+
+
 ## Stack
 
 - QGIS
@@ -336,3 +356,4 @@ Map of EEZ (Exclusive Economic Zones) using - [Marine Regions Data](https://www.
 - [Kaggle Meteorite Landings dataset](https://www.kaggle.com/datasets/nasa/meteorite-landings?resource=download)
 - [Beijing Taxi Kaggle Dataset](https://www.kaggle.com/datasets/arashnic/tdriver/data)
 - [Marine Regions Data](https://www.marineregions.org/downloads.php)
+- [VIIRS Nighttime Lights - Earth Observation Group](https://eogdata.mines.edu/products/vnl/)
